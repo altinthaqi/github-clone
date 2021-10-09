@@ -1,0 +1,134 @@
+.login-main{
+    background-color: $color-black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        height: 48px;
+        width: 48px;
+        margin: 40px 0px 24px 0px;
+        cursor: pointer;
+    }
+    .login-container{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 22px;
+            color: $color-grey;
+            align-self: center;
+            padding-bottom: 20px;
+            letter-spacing: -0.5;
+        }
+        .login-form{
+            background-color: $color-secondary;
+            width: 308px;
+            height: 229px;
+            padding: 0px 20px;
+            border-radius: 7px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid $color-border;
+            color: $color-grey;
+            font-size: $text-2;
+            input{
+                background-color: $color-black;
+                border: 1px solid $color-border;
+                border-radius: 7px;
+                width: 100%;
+                padding: 6px 6px;
+                margin-top: 7px;
+                margin-bottom: 15px;
+                color: $color-grey;
+
+                &:focus{
+                    outline: none;
+                    border-color: $color-link;
+                    box-shadow: 0 0 10px $color-link;
+                    // border: 10px solid $color-link;
+                }
+            }
+            button{
+                width: 100%;
+                background-color: $color-btn;
+                color: #fff;
+                border: none;
+                border-radius: 7px;
+                padding: 6px 0px;
+                margin-top: 13px;
+                line-height: 20px;
+                cursor: pointer;
+            }
+
+            .login-second-input{
+                position: relative;
+
+                a{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    color: $color-link;
+                    font-size: $text-1;
+                }
+
+            }
+        }
+        .login-new{
+            color: $color-grey;
+            padding: 15px 20px;
+            border-radius: 7px;
+            border: 1px solid $color-border;
+            font-size: $text-2;
+            text-align: center;
+            margin-top: 16px;
+
+            a{
+                color: $color-link;
+            }
+        }
+
+
+    }
+    .login-footer{
+        margin-top: 40px;
+        padding: 40px 0px;
+
+        ul{
+            display: flex;
+            
+            font-size: $text-1;
+
+            li{
+                padding: 0px 10px;
+
+                a{
+                    color: $color-link;
+                }
+
+                .login-grey{
+                    color: grey;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 562px) {
+    body{
+        .login-main {
+            background-color: $color-bg-mobile;
+
+            .login-container{
+
+                .login-form{
+
+                    input{
+                        background-color: $color-bg-mobile;
+                    }
+                }
+            }
+        }
+    }
+}
