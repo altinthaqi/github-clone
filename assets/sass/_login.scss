@@ -114,21 +114,3 @@
         }
     }
 }
-
-@media only screen and (max-width: 562px) {
-    body{
-        .login-main {
-            background-color: $color-bg-mobile;
-
-            .login-container{
-
-                .login-form{
-
-                    input{
-                        background-color: $color-bg-mobile;
-                    }
-                }
-            }
-        }
-    }
-}

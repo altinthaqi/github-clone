@@ -1,0 +1,104 @@
+header{
+    i{
+        cursor: pointer;
+    }
+    background-color: $color-secondary;
+    width: 100%;
+    height: 62px;
+    
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+        width: 95%;
+        margin: 0 auto;
+        font-size: $text-2;
+        
+        
+        
+
+        .primary-header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+
+            input{
+                margin: 0px 10px 0px 15px;
+                background-color: $color-black;
+                border: none;
+                border: 1px solid $color-border;
+                border-radius: 6px;
+                padding: 5px 5px 5px 10px;
+                width: 240px;
+
+                color: $color-grey;
+
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            ul{
+                display: flex;
+                flex-direction: row;
+                color: #fff;
+
+                li{
+                    padding: 0px 10px;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: $color-grey;
+                    }
+                }
+            }
+        }
+
+        .secondary-header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            ul{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                i{
+                    &:hover{
+                        color: #7a7a7a;
+                    }
+                }
+                img{
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 25px;
+                }
+
+                li{
+                    color: $color-grey;
+                    padding: 0px 10px;
+                }
+            }
+        }
+
+        .header-responsive{
+            
+            
+            display: none;
+        }
+    }
+
+    .header-group{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        i{
+            padding: 0px 3px;
+            font-size: 12px;
+        }
+    }
+}

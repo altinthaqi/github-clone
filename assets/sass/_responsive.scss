@@ -1,0 +1,57 @@
+@import "variables";
+
+@media (max-width: 562px) {
+    body{
+        .login-main {
+            background-color: $color-bg-mobile;
+
+            .login-container{
+
+                .login-form{
+
+                    input{
+                        background-color: $color-bg-mobile;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 800px){
+    body{
+
+        header{
+        .primary-header,
+        .secondary-header{
+            display: none !important;
+        }
+        .header-responsive{
+            display: flex !important;
+            flex-direction: row;
+            width: 100%;
+            align-content: center;
+            align-items: center;
+            justify-content: space-between;
+
+            // img{
+            //     cursor: pointer;
+            // }
+
+            i{
+                color: #fff;
+                font-size: 20px;
+
+                &:hover{
+                    color: #7a7a7a;
+                }
+            }
+        }
+        }
+        
+    }
+        
+    
+}
