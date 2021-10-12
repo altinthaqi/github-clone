@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 849px) {
+@media (max-width: 749px) {
   body header {
     background-color: #161b22;
     width: 100%;
@@ -66,8 +66,1952 @@
   body header .header-responsive i:hover {
     color: #7a7a7a;
   }
-  body .main .container .profile-links .profile-link h2 {
+  body .main {
+    background-color: #0d1117;
+  }
+  body .main .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+  body .main .container .links .space-links {
+    display: none;
+  }
+  body .main .container .links .profile-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    padding: 10px 0px;
+    width: 100%;
+    border-bottom: 1px solid #3a3a3a;
+    height: 100%;
+  }
+  body .main .container .links .profile-links .profile-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 13px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #C9D1D9;
+  }
+  body .main .container .links .profile-links .profile-link .profile-active {
+    -webkit-text-decoration: underline 3px solid #f78166;
+            text-decoration: underline 3px solid #f78166;
+    text-underline-offset: 16px;
+  }
+  body .main .container .links .profile-links .profile-link .repository-number {
+    background-color: gray;
+    color: white;
+    border-radius: 12px;
+    line-height: 15px;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 2px 4px;
+    margin-left: 5px;
+  }
+  body .main .container .links .profile-links .profile-link i {
+    margin-right: 10px;
+    color: #4e4e4e;
+  }
+  body .main .container .links .profile-links .profile-link a {
+    font-size: 14px;
+    color: #C9D1D9;
+    cursor: pointer;
+  }
+  body .main .container .main-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px auto;
+  }
+  body .main .container .main-content .content-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #C9D1D9;
+    text-align: center;
+    margin-top: 20px;
+  }
+  body .main .container .main-content .content-left img {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  body .main .container .main-content .content-left .left-title {
+    font-size: 24px;
+    padding: 5px 0px;
+  }
+  body .main .container .main-content .content-left .left-undertitle {
+    font-size: 16px;
+    padding: 3px 0px;
+    color: gray;
+  }
+  body .main .container .main-content .content-left .left-bio {
+    font-size: 16px;
+    padding: 5px 0px;
+  }
+  body .main .container .main-content .content-left button {
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    width: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    background-color: #21262d;
+    color: #C9D1D9;
+    border: 1px solid #21262d;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  body .main .container .main-content .content-left button:hover {
+    background-color: #474747;
+    border: 1px solid #C9D1D9;
+  }
+  body .main .container .main-content .content-left .left-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin-bottom: 10px;
+  }
+  body .main .container .main-content .content-left .left-stats .stat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-left .left-stats .stat span {
+    margin-right: 7px;
+    color: #7a7a7a;
+  }
+  body .main .container .main-content .content-left .left-stats .stat span span {
+    color: #e0e0e0;
+  }
+  body .main .container .main-content .content-left .left-stats .stat i {
+    margin-right: 5px;
+    color: #4b4b4b;
+  }
+  body .main .container .main-content .content-left .left-location {
+    display: none;
+  }
+  body .main .container .main-content .content-left .highlight {
+    display: none;
+  }
+  body .main .container .main-content .content-left .left-highlights {
+    display: none;
+  }
+  body .main .container .main-content .content-right {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 16px;
+  }
+  body .main .container .main-content .content-right .right-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #C9D1D9;
+    margin: 15px 0px 10px 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-title h2 {
+    font-size: 18px;
+  }
+  body .main .container .main-content .content-right .right-title p {
+    font-size: 13px;
+  }
+  body .main .container .main-content .content-right .right-title p:hover {
+    color: #58A6FF;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .right-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .main-content .content-right .right-items .items-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 10px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .mr {
+    margin-right: 3px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .ml {
+    margin-left: 3px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #0d1117;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 1px solid #3a3a3a;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item p {
+    color: #bdbdbd;
     font-size: 12px;
+    padding: 3px 0px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info i {
+    color: #5f5f5f;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info h2 {
+    color: #58A6FF;
+    font-size: 16px;
+    padding: 0px 15px;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info h2:hover {
+    -webkit-text-decoration: 1px underline #58A6FF;
+            text-decoration: 1px underline #58A6FF;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-left {
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-right {
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-right .privacy {
+    color: #5f5f5f;
+    margin-right: 15px;
+    font-size: 12px;
+    border: 1px solid grey;
+    padding: 0px 10px;
+    border-radius: 8px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-language .language-js {
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 6px;
+    background-color: #f1e05a;
+  }
+  body .main .container .main-content .content-right .calendar {
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+    width: 95%;
+  }
+  body .main .container .main-content .content-right .calendar .ContributionCalendar-label {
+    font-size: 9px;
+    fill: white;
+  }
+  body .main .container .main-content .content-right .calendar svg {
+    width: 100%;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(1) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(2) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(3) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(4) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(5) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(6) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(7) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(8) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(9) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(10) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(11) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(12) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(13) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(14) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(15) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(16) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(17) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(18) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(19) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(20) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(21) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(22) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(23) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(24) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(25) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(26) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(27) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(28) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(29) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(30) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(31) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(32) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(33) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(34) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(35) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(36) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(37) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(38) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(39) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(40) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(41) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(42) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(43) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(44) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(45) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(46) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(47) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(48) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(49) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(50) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(51) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(52) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(53) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info p {
+    color: #5f5f5f;
+    font-size: 14px;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info p:nth-child(1):hover {
+    color: #58A6FF;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info p {
+    color: #5f5f5f;
+    font-size: 12px;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info div {
+    margin: 0px 3px;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c1 {
+    height: 10px;
+    width: 10px;
+    background-color: #161b22;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c2 {
+    height: 10px;
+    width: 10px;
+    background-color: #0e4429;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c3 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c4 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c5 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
+  }
+  body .main .container .main-content .content-right .activity {
+    width: 100%;
+    position: relative;
+    color: gray;
+  }
+  body .main .container .main-content .content-right .activity .activity-container {
+    width: 100%;
+    padding-right: 20px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .buttons {
+    display: none;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading .line {
+    height: 1px;
+    width: 100%;
+    background-color: #5f5f5f;
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading p {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    font-size: 16px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left h2 {
+    font-size: 16px;
+    color: whitesmoke;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left p {
+    color: #58A6FF;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left p:hover {
+    -webkit-text-decoration: 1px underline #58A6FF;
+            text-decoration: 1px underline #58A6FF;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 .progress1 {
+    height: 10px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: green;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 .progress2 {
+    margin-top: 10px;
+    height: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: green;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 12px;
+    margin-top: 7px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language .scss {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #B34936;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language .html {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #e44b23;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .show-more {
+    width: 100%;
+    border: 1px solid #5f5f5f;
+    background-color: #0d1117;
+    color: #58A6FF;
+    margin-top: 30px;
+    padding: 8px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .show-more:hover {
+    background-color: #161b22;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .unexpected {
+    color: gray;
+    margin: 30px 0px 50px 0px;
+    font-size: 12px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .unexpected span {
+    color: #58A6FF;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .unexpected span:hover {
+    -webkit-text-decoration: underline #58A6FF;
+            text-decoration: underline #58A6FF;
+  }
+  body footer {
+    background-color: #0d1117;
+  }
+  body footer .footer-links {
+    margin: 0 auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #58A6FF;
+    font-size: 12px;
+    padding: 40px 0px;
+    border-top: 1px solid #3f3f3f;
+  }
+  body footer .footer-links li {
+    padding: 5px 0px;
+    cursor: pointer;
+  }
+  body footer .footer-links li:hover {
+    -webkit-text-decoration: underline #58A6FF;
+            text-decoration: underline #58A6FF;
+  }
+  body footer .footer-links img {
+    margin: 20px 0px;
+  }
+  body footer .footer-links li:nth-child(1) {
+    color: gray;
+  }
+}
+
+@media (min-width: 750px) {
+  body header {
+    background-color: #161b22;
+    width: 100%;
+    height: 62px;
+  }
+  body header i {
+    cursor: pointer;
+  }
+  body header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  body header nav .primary-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header nav .primary-header input {
+    margin: 0px 10px 0px 15px;
+    background-color: #0d1117;
+    border: none;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    padding: 5px 5px 5px 10px;
+    width: 240px;
+    color: #C9D1D9;
+  }
+  body header nav .primary-header input:focus {
+    outline: none;
+  }
+  body header nav .primary-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: #fff;
+  }
+  body header nav .primary-header ul li {
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+  body header nav .primary-header ul li:hover {
+    color: #C9D1D9;
+  }
+  body header nav .secondary-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header nav .secondary-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header nav .secondary-header ul i:hover {
+    color: #7a7a7a;
+  }
+  body header nav .secondary-header ul img {
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+  }
+  body header nav .secondary-header ul li {
+    color: #C9D1D9;
+    padding: 0px 10px;
+  }
+  body header nav .header-responsive {
+    display: none;
+  }
+  body header .header-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  body header .header-group i {
+    padding: 0px 3px;
+    font-size: 12px;
+  }
+  body header .header-group .secondary-hover {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #0d1117;
+    top: 18px;
+    right: -10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #3a3a3a;
+  }
+  body header .header-group .secondary-hover .align {
+    text-align: center;
+  }
+  body header .header-group .secondary-hover li {
+    padding: 4px 16px 6px 10px;
+    font-size: 14px;
+    width: 100%;
+    cursor: pointer;
+  }
+  body header .header-group .secondary-hover li a {
+    color: #C9D1D9;
+  }
+  body header .header-group .secondary-hover li:hover {
+    color: #fff;
+    background-color: #58A6FF;
+  }
+  body header .header-group .secondary-hover input {
+    background-color: #21262d;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    padding: 7px 5px 7px 5px;
+    color: #C9D1D9;
+    margin-top: 5px;
+  }
+  body header .header-group .secondary-hover input:focus {
+    outline: none;
+  }
+  body header .header-group .secondary-hover .border {
+    border-bottom: 1px solid #3a3a3a;
+  }
+  body header .header-group .secondary-hover li ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body header .header-group:hover .secondary-hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .main {
+    background-color: #0d1117;
+  }
+  body .main .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+  }
+  body .main .container .links .space-links {
+    padding: 0px 16px;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  body .main .container .links .profile-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 20px;
+    padding: 10px 0px;
+    height: 100%;
+    -webkit-box-flex: 9;
+        -ms-flex: 9;
+            flex: 9;
+    border-bottom: 1px solid #3a3a3a;
+    height: 100%;
+    line-height: 30px;
+  }
+  body .main .container .links .profile-links .profile-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 13px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #C9D1D9;
+  }
+  body .main .container .links .profile-links .profile-link .profile-active {
+    -webkit-text-decoration: underline 3px solid #f78166;
+            text-decoration: underline 3px solid #f78166;
+    text-underline-offset: 16px;
+  }
+  body .main .container .links .profile-links .profile-link .repository-number {
+    background-color: gray;
+    color: white;
+    border-radius: 12px;
+    line-height: 20px;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 0px 6px;
+    margin-left: 5px;
+  }
+  body .main .container .links .profile-links .profile-link i {
+    margin-right: 10px;
+    color: #4e4e4e;
+  }
+  body .main .container .links .profile-links .profile-link a {
+    font-size: 14px;
+    color: #C9D1D9;
+    cursor: pointer;
+  }
+  body .main .container .main-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 1280px;
+    margin: 0px auto;
+  }
+  body .main .container .main-content .content-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #C9D1D9;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    width: 100%;
+    margin-top: -32px;
+  }
+  body .main .container .main-content .content-left img {
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 12px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    height: 150px;
+    width: 150px;
+  }
+  body .main .container .main-content .content-left .left-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  body .main .container .main-content .content-left .left-undertitle {
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: gray;
+    text-align: center;
+  }
+  body .main .container .main-content .content-left .left-bio {
+    font-size: 16px;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+  }
+  body .main .container .main-content .content-left button {
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    width: 95%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    background-color: #21262d;
+    color: #C9D1D9;
+    border: 1px solid #21262d;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  body .main .container .main-content .content-left button:hover {
+    background-color: #474747;
+    border: 1px solid #C9D1D9;
+  }
+  body .main .container .main-content .content-left .left-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+  body .main .container .main-content .content-left .left-stats .stat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-left .left-stats .stat span {
+    margin-right: 7px;
+    color: #7a7a7a;
+  }
+  body .main .container .main-content .content-left .left-stats .stat span span {
+    color: #e0e0e0;
+  }
+  body .main .container .main-content .content-left .left-stats .stat i {
+    margin-right: 5px;
+    color: #4b4b4b;
+  }
+  body .main .container .main-content .content-left .left-location {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3d3d3d;
+  }
+  body .main .container .main-content .content-left .left-location i {
+    color: #4b4b4b;
+    padding-top: 5px;
+  }
+  body .main .container .main-content .content-left .left-location p {
+    margin-left: 8px;
+  }
+  body .main .container .main-content .content-left .highlight {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+  }
+  body .main .container .main-content .content-left .left-highlights {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .main .container .main-content .content-left .left-highlights .pro {
+    color: #8957e5;
+    border: 1px solid #8957e5;
+    line-height: 18px;
+    padding: 2px 5px;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right {
+    -webkit-box-flex: 9;
+        -ms-flex: 9;
+            flex: 9;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 16px;
+  }
+  body .main .container .main-content .content-right .right-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #C9D1D9;
+    margin: 15px 0px 10px 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-title h2 {
+    font-size: 18px;
+  }
+  body .main .container .main-content .content-right .right-title p {
+    font-size: 13px;
+  }
+  body .main .container .main-content .content-right .right-title p:hover {
+    color: #58A6FF;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .right-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .main-content .content-right .right-items .items-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 10px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .mr {
+    margin-right: 3px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .ml {
+    margin-left: 3px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #0d1117;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 1px solid #3a3a3a;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item p {
+    color: #bdbdbd;
+    font-size: 12px;
+    padding: 3px 0px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info i {
+    color: #5f5f5f;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info h2 {
+    color: #58A6FF;
+    font-size: 16px;
+    padding: 0px 15px;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info h2:hover {
+    -webkit-text-decoration: 1px underline #58A6FF;
+            text-decoration: 1px underline #58A6FF;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-left {
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-right {
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-right .privacy {
+    color: #5f5f5f;
+    margin-right: 15px;
+    font-size: 12px;
+    border: 1px solid grey;
+    padding: 0px 10px;
+    border-radius: 8px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-language .language-js {
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 6px;
+    background-color: #f1e05a;
+  }
+  body .main .container .main-content .content-right .calendar {
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+    width: 95%;
+  }
+  body .main .container .main-content .content-right .calendar .ContributionCalendar-label {
+    font-size: 9px;
+    fill: white;
+  }
+  body .main .container .main-content .content-right .calendar svg {
+    width: 100%;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(1) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(2) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(3) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(4) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(5) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(6) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(7) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(8) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(9) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(10) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(11) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(12) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(13) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(14) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(15) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(16) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(17) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(18) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(19) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(20) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(21) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(22) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(23) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(24) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(25) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(26) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(27) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(28) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(29) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(30) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(31) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(32) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(33) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(34) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(35) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(36) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(37) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(38) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(39) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(40) rect:nth-child(2) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(41) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(42) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(43) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(44) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(45) rect:nth-child(5) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(46) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(47) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(48) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(49) rect:nth-child(1) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(50) rect:nth-child(4) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(51) rect:nth-child(7) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(52) rect:nth-child(3) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar svg g g:nth-child(53) rect:nth-child(6) {
+    fill: green;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info p {
+    color: #5f5f5f;
+    font-size: 14px;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info p:nth-child(1):hover {
+    color: #58A6FF;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info p {
+    color: #5f5f5f;
+    font-size: 12px;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info div {
+    margin: 0px 3px;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c1 {
+    height: 10px;
+    width: 10px;
+    background-color: #161b22;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c2 {
+    height: 10px;
+    width: 10px;
+    background-color: #0e4429;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c3 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c4 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
+  }
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c5 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
+  }
+  body .main .container .main-content .content-right .activity {
+    width: 100%;
+    position: relative;
+    color: gray;
+  }
+  body .main .container .main-content .content-right .activity .activity-container {
+    width: 100%;
+    padding-right: 20px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .buttons {
+    display: none;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading .line {
+    height: 1px;
+    width: 100%;
+    background-color: #5f5f5f;
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading p {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    font-size: 16px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left h2 {
+    font-size: 16px;
+    color: whitesmoke;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left p {
+    color: #58A6FF;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left p:hover {
+    -webkit-text-decoration: 1px underline #58A6FF;
+            text-decoration: 1px underline #58A6FF;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 .progress1 {
+    height: 10px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: green;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 .progress2 {
+    margin-top: 10px;
+    height: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: green;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 12px;
+    margin-top: 7px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language .scss {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #B34936;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language .html {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #e44b23;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .show-more {
+    width: 100%;
+    border: 1px solid #5f5f5f;
+    background-color: #0d1117;
+    color: #58A6FF;
+    margin-top: 30px;
+    padding: 8px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .show-more:hover {
+    background-color: #161b22;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .unexpected {
+    color: gray;
+    margin: 30px 0px 50px 0px;
+    font-size: 12px;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .unexpected span {
+    color: #58A6FF;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .activity .activity-container .unexpected span:hover {
+    -webkit-text-decoration: underline #58A6FF;
+            text-decoration: underline #58A6FF;
+  }
+  body footer {
+    background-color: #0d1117;
+  }
+  body footer .footer-links {
+    margin: 0 auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #58A6FF;
+    font-size: 12px;
+    padding: 40px 0px;
+    border-top: 1px solid #3f3f3f;
+  }
+  body footer .footer-links li {
+    padding: 5px 0px;
+    cursor: pointer;
+  }
+  body footer .footer-links li:hover {
+    -webkit-text-decoration: underline #58A6FF;
+            text-decoration: underline #58A6FF;
+  }
+  body footer .footer-links img {
+    margin: 20px 0px;
+  }
+  body footer .footer-links li:nth-child(1) {
+    color: gray;
   }
 }
 
@@ -351,6 +2295,7 @@
   body .main .container .links .profile-links .profile-link a {
     font-size: 14px;
     color: #C9D1D9;
+    cursor: pointer;
   }
   body .main .container .main-content {
     display: -webkit-box;
@@ -392,10 +2337,11 @@
   body .main .container .main-content .content-left .left-undertitle {
     font-size: 16px;
     padding-bottom: 10px;
+    color: gray;
   }
   body .main .container .main-content .content-left .left-bio {
-    font-size: 18px;
-    padding-bottom: 10px;
+    font-size: 16px;
+    padding: 10px 0px 20px 0px;
   }
   body .main .container .main-content .content-left button {
     border: none;
@@ -408,6 +2354,7 @@
     color: #C9D1D9;
     border: 1px solid #21262d;
     cursor: pointer;
+    margin-bottom: 10px;
   }
   body .main .container .main-content .content-left button:hover {
     background-color: #474747;
@@ -421,9 +2368,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   body .main .container .main-content .content-left .left-stats .stat {
     display: -webkit-box;
@@ -436,9 +2386,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 10px;
     text-align: center;
     cursor: pointer;
@@ -447,9 +2397,12 @@
     margin-right: 7px;
     color: #7a7a7a;
   }
+  body .main .container .main-content .content-left .left-stats .stat span span {
+    color: #e0e0e0;
+  }
   body .main .container .main-content .content-left .left-stats .stat i {
     margin-right: 5px;
-    color: #7a7a7a;
+    color: #4b4b4b;
   }
   body .main .container .main-content .content-left .left-location {
     display: -webkit-box;
@@ -462,15 +2415,19 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #555555;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3d3d3d;
+  }
+  body .main .container .main-content .content-left .left-location i {
+    color: #4b4b4b;
+    padding-top: 5px;
   }
   body .main .container .main-content .content-left .left-location p {
     margin-left: 8px;
   }
   body .main .container .main-content .content-left .highlight {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 16px;
   }
   body .main .container .main-content .content-left .left-highlights {
@@ -680,164 +2637,929 @@
   body .main .container .main-content .content-right .calendar svg {
     width: 100%;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(1) rect:nth-child(3) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(2) rect:nth-child(1) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info p {
+    color: #5f5f5f;
+    font-size: 14px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(3) rect:nth-child(7) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info p:nth-child(1):hover {
+    color: #58A6FF;
+    cursor: pointer;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(4) rect:nth-child(5) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(5) rect:nth-child(7) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info p {
+    color: #5f5f5f;
+    font-size: 12px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(6) rect:nth-child(6) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info div {
+    margin: 0px 3px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(7) rect:nth-child(6) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c1 {
+    height: 10px;
+    width: 10px;
+    background-color: #161b22;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(8) rect:nth-child(7) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c2 {
+    height: 10px;
+    width: 10px;
+    background-color: #0e4429;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(9) rect:nth-child(1) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c3 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(10) rect:nth-child(3) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c4 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(11) rect:nth-child(4) {
-    fill: green;
+  body .main .container .main-content .content-right .calendar .calendar-info .right-calendar-info .c5 {
+    height: 10px;
+    width: 10px;
+    background-color: #006d32;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(12) rect:nth-child(1) {
-    fill: green;
+  body .main .container .main-content .content-right .activity {
+    width: 100%;
+    position: relative;
+    color: gray;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(13) rect:nth-child(1) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container {
+    width: 100%;
+    padding-right: 20px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(14) rect:nth-child(2) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .buttons {
+    display: none;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(15) rect:nth-child(6) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(16) rect:nth-child(3) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading .line {
+    height: 1px;
+    width: 100%;
+    background-color: #5f5f5f;
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(17) rect:nth-child(6) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-heading p {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    font-size: 16px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(18) rect:nth-child(7) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(19) rect:nth-child(3) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(20) rect:nth-child(4) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(21) rect:nth-child(2) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left h2 {
+    font-size: 16px;
+    color: whitesmoke;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(22) rect:nth-child(2) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left p {
+    color: #58A6FF;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 5px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(23) rect:nth-child(6) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-left p:hover {
+    -webkit-text-decoration: 1px underline #58A6FF;
+            text-decoration: 1px underline #58A6FF;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(24) rect:nth-child(2) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(25) rect:nth-child(5) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 .progress1 {
+    height: 10px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: green;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(26) rect:nth-child(6) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right1 .progress2 {
+    margin-top: 10px;
+    height: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: green;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(27) rect:nth-child(5) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(28) rect:nth-child(1) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 12px;
+    margin-top: 7px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(29) rect:nth-child(4) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(30) rect:nth-child(4) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language .scss {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #B34936;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(31) rect:nth-child(2) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .activity-box .activity-row .box-right2 .right .right-language .html {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #e44b23;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(32) rect:nth-child(5) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .show-more {
+    width: 100%;
+    border: 1px solid #5f5f5f;
+    background-color: #0d1117;
+    color: #58A6FF;
+    margin-top: 30px;
+    padding: 8px 0px;
+    border-radius: 6px;
+    cursor: pointer;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(33) rect:nth-child(1) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .show-more:hover {
+    background-color: #161b22;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(34) rect:nth-child(4) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .unexpected {
+    color: gray;
+    margin: 30px 0px 50px 0px;
+    font-size: 12px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(35) rect:nth-child(3) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .unexpected span {
+    color: #58A6FF;
+    cursor: pointer;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(36) rect:nth-child(1) {
-    fill: green;
+  body .main .container .main-content .content-right .activity .activity-container .unexpected span:hover {
+    -webkit-text-decoration: underline #58A6FF;
+            text-decoration: underline #58A6FF;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(37) rect:nth-child(6) {
-    fill: green;
+  body footer {
+    background-color: #0d1117;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(38) rect:nth-child(5) {
-    fill: green;
+  body footer .footer-links {
+    margin: 0 auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #58A6FF;
+    font-size: 12px;
+    padding: 40px 0px;
+    border-top: 1px solid #3f3f3f;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(39) rect:nth-child(6) {
-    fill: green;
+  body footer .footer-links li {
+    cursor: pointer;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(40) rect:nth-child(5) {
-    fill: green;
+  body footer .footer-links li:hover {
+    -webkit-text-decoration: underline #58A6FF;
+            text-decoration: underline #58A6FF;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(41) rect:nth-child(2) {
-    fill: green;
+  body footer .footer-links img {
+    margin: 0px 50px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(42) rect:nth-child(7) {
-    fill: green;
+  body footer .footer-links li:nth-child(1) {
+    color: gray;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(43) rect:nth-child(6) {
-    fill: green;
+}
+
+@media (min-width: 1000px) {
+  body header {
+    background-color: #161b22;
+    width: 100%;
+    height: 62px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(44) rect:nth-child(1) {
-    fill: green;
+  body header i {
+    cursor: pointer;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(45) rect:nth-child(5) {
-    fill: green;
+  body header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 14px;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(46) rect:nth-child(4) {
-    fill: green;
+  body header nav .primary-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(47) rect:nth-child(4) {
-    fill: green;
+  body header nav .primary-header input {
+    margin: 0px 10px 0px 15px;
+    background-color: #0d1117;
+    border: none;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    padding: 5px 5px 5px 10px;
+    width: 240px;
+    color: #C9D1D9;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(48) rect:nth-child(3) {
-    fill: green;
+  body header nav .primary-header input:focus {
+    outline: none;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(49) rect:nth-child(2) {
-    fill: green;
+  body header nav .primary-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: #fff;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(50) rect:nth-child(3) {
-    fill: green;
+  body header nav .primary-header ul li {
+    padding: 0px 10px;
+    cursor: pointer;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(51) rect:nth-child(3) {
-    fill: green;
+  body header nav .primary-header ul li:hover {
+    color: #C9D1D9;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(52) rect:nth-child(2) {
-    fill: green;
+  body header nav .secondary-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  body .main .container .main-content .content-right .calendar svg g g:nth-child(53) rect:nth-child(7) {
-    fill: green;
+  body header nav .secondary-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header nav .secondary-header ul i:hover {
+    color: #7a7a7a;
+  }
+  body header nav .secondary-header ul img {
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+  }
+  body header nav .secondary-header ul li {
+    color: #C9D1D9;
+    padding: 0px 10px;
+  }
+  body header nav .header-responsive {
+    display: none;
+  }
+  body header .header-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  body header .header-group i {
+    padding: 0px 3px;
+    font-size: 12px;
+  }
+  body header .header-group .secondary-hover {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #0d1117;
+    top: 18px;
+    right: -10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #3a3a3a;
+  }
+  body header .header-group .secondary-hover .align {
+    text-align: center;
+  }
+  body header .header-group .secondary-hover li {
+    padding: 4px 16px 6px 10px;
+    font-size: 14px;
+    width: 100%;
+    cursor: pointer;
+  }
+  body header .header-group .secondary-hover li a {
+    color: #C9D1D9;
+  }
+  body header .header-group .secondary-hover li:hover {
+    color: #fff;
+    background-color: #58A6FF;
+  }
+  body header .header-group .secondary-hover input {
+    background-color: #21262d;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    padding: 7px 5px 7px 5px;
+    color: #C9D1D9;
+    margin-top: 5px;
+  }
+  body header .header-group .secondary-hover input:focus {
+    outline: none;
+  }
+  body header .header-group .secondary-hover .border {
+    border-bottom: 1px solid #3a3a3a;
+  }
+  body header .header-group .secondary-hover li ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body header .header-group:hover .secondary-hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .main {
+    background-color: #0d1117;
+  }
+  body .main .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+  }
+  body .main .container .links .space-links {
+    padding: 0px 16px;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  body .main .container .links .profile-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 20px;
+    padding: 10px 0px;
+    height: 100%;
+    -webkit-box-flex: 9;
+        -ms-flex: 9;
+            flex: 9;
+    border-bottom: 1px solid #3a3a3a;
+    height: 100%;
+    line-height: 30px;
+  }
+  body .main .container .links .profile-links .profile-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 13px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #C9D1D9;
+  }
+  body .main .container .links .profile-links .profile-link .profile-active {
+    -webkit-text-decoration: underline 3px solid #f78166;
+            text-decoration: underline 3px solid #f78166;
+    text-underline-offset: 16px;
+  }
+  body .main .container .links .profile-links .profile-link .repository-number {
+    background-color: gray;
+    color: white;
+    border-radius: 12px;
+    line-height: 20px;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 0px 6px;
+    margin-left: 5px;
+  }
+  body .main .container .links .profile-links .profile-link i {
+    margin-right: 10px;
+    color: #4e4e4e;
+  }
+  body .main .container .links .profile-links .profile-link a {
+    font-size: 14px;
+    color: #C9D1D9;
+    cursor: pointer;
+  }
+  body .main .container .main-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 1280px;
+    margin: 0px auto;
+  }
+  body .main .container .main-content .content-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #C9D1D9;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    width: 100%;
+    margin-top: -32px;
+  }
+  body .main .container .main-content .content-left img {
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 12px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  body .main .container .main-content .content-left .left-title {
+    font-size: 26px;
+  }
+  body .main .container .main-content .content-left .left-undertitle {
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: gray;
+  }
+  body .main .container .main-content .content-left .left-bio {
+    font-size: 16px;
+    padding: 10px 0px 20px 0px;
+  }
+  body .main .container .main-content .content-left button {
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    width: 95%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    background-color: #21262d;
+    color: #C9D1D9;
+    border: 1px solid #21262d;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  body .main .container .main-content .content-left button:hover {
+    background-color: #474747;
+    border: 1px solid #C9D1D9;
+  }
+  body .main .container .main-content .content-left .left-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10px;
+  }
+  body .main .container .main-content .content-left .left-stats .stat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-left .left-stats .stat span {
+    margin-right: 7px;
+    color: #7a7a7a;
+  }
+  body .main .container .main-content .content-left .left-stats .stat span span {
+    color: #e0e0e0;
+  }
+  body .main .container .main-content .content-left .left-stats .stat i {
+    margin-right: 5px;
+    color: #4b4b4b;
+  }
+  body .main .container .main-content .content-left .left-location {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3d3d3d;
+  }
+  body .main .container .main-content .content-left .left-location i {
+    color: #4b4b4b;
+    padding-top: 5px;
+  }
+  body .main .container .main-content .content-left .left-location p {
+    margin-left: 8px;
+  }
+  body .main .container .main-content .content-left .highlight {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  body .main .container .main-content .content-left .left-highlights {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-left .left-highlights .pro {
+    color: #8957e5;
+    border: 1px solid #8957e5;
+    line-height: 18px;
+    padding: 2px 5px;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right {
+    -webkit-box-flex: 9;
+        -ms-flex: 9;
+            flex: 9;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 16px;
+  }
+  body .main .container .main-content .content-right .right-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #C9D1D9;
+    margin: 15px 0px 10px 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-title h2 {
+    font-size: 18px;
+  }
+  body .main .container .main-content .content-right .right-title p {
+    font-size: 13px;
+  }
+  body .main .container .main-content .content-right .right-title p:hover {
+    color: #58A6FF;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .right-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main .container .main-content .content-right .right-items .items-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 10px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .mr {
+    margin-right: 3px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .ml {
+    margin-left: 3px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #0d1117;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 1px solid #3a3a3a;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item p {
+    color: #bdbdbd;
+    font-size: 12px;
+    padding: 3px 0px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info i {
+    color: #5f5f5f;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info h2 {
+    color: #58A6FF;
+    font-size: 16px;
+    padding: 0px 15px;
+    cursor: pointer;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info h2:hover {
+    -webkit-text-decoration: 1px underline #58A6FF;
+            text-decoration: 1px underline #58A6FF;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-left {
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-right {
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-info .item-info-right .privacy {
+    color: #5f5f5f;
+    margin-right: 15px;
+    font-size: 12px;
+    border: 1px solid grey;
+    padding: 0px 10px;
+    border-radius: 8px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6px;
+  }
+  body .main .container .main-content .content-right .right-items .items-row .item .item-language .language-js {
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 6px;
+    background-color: #f1e05a;
+  }
+  body .main .container .main-content .content-right .calendar {
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+    width: 95%;
+  }
+  body .main .container .main-content .content-right .calendar .ContributionCalendar-label {
+    font-size: 9px;
+    fill: white;
+  }
+  body .main .container .main-content .content-right .calendar svg {
+    width: 100%;
   }
   body .main .container .main-content .content-right .calendar .calendar-info {
     display: -webkit-box;
