@@ -1,0 +1,912 @@
+@import "style";
+
+@media (max-width: 849px){
+    body{
+        header {
+            i {
+                cursor: pointer;
+            }
+
+            background-color: $color-secondary;
+            width: 100%;
+            height: 62px;
+
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 100%;
+                width: 95%;
+                margin: 0 auto;
+                font-size: $text-2;
+
+            }
+
+            .primary-header,
+            .secondary-header {
+                display: none;
+            }
+
+            .header-responsive {
+                display: flex !important;
+                flex-direction: row;
+                width: 100%;
+                align-content: center;
+                align-items: center;
+                justify-content: space-between;
+
+                i {
+                    color: #fff;
+                    font-size: 20px;
+
+                    &:hover {
+                        color: #7a7a7a;
+                    }
+                }
+            }
+        }
+
+        .main{
+
+            .container{
+
+                .profile-links{
+
+                    .profile-link{
+
+                        h2{
+                            font-size: $text-1;
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+    }
+
+}
+
+@media (min-width: 850px){
+    body{
+        header {
+            i {
+                cursor: pointer;
+            }
+
+            background-color: $color-secondary;
+            width: 100%;
+            height: 62px;
+
+
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 100%;
+                width: 95%;
+                margin: 0 auto;
+                font-size: $text-2;
+
+
+
+
+                .primary-header {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+
+                    input {
+                        margin: 0px 10px 0px 15px;
+                        background-color: $color-black;
+                        border: none;
+                        border: 1px solid $color-border;
+                        border-radius: 6px;
+                        padding: 5px 5px 5px 10px;
+                        width: 240px;
+
+                        color: $color-grey;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        color: #fff;
+
+                        li {
+                            padding: 0px 10px;
+                            cursor: pointer;
+
+                            &:hover {
+                                color: $color-grey;
+                            }
+                        }
+                    }
+                }
+
+                .secondary-header {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+                        i {
+                            &:hover {
+                                color: #7a7a7a;
+                            }
+                        }
+
+                        img {
+                            height: 20px;
+                            width: 20px;
+                            border-radius: 25px;
+                        }
+
+                        li {
+                            color: $color-grey;
+                            padding: 0px 10px;
+                        }
+                    }
+                }
+
+                .header-responsive {
+
+
+                    display: none;
+                }
+            }
+
+            .header-group {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                position: relative;
+
+                i {
+                    padding: 0px 3px;
+                    font-size: 12px;
+                }
+
+                .secondary-hover{
+                    display: none;
+                    
+                    flex-direction: column;
+                    position: absolute;
+                    align-items: flex-start;
+                    background-color: $color-black;
+                    top: 18px;
+                    right: -10px;
+                    padding: 10px;
+                    border-radius: 6px;
+                    border: 1px solid rgb(58, 58, 58);
+                    .align{
+                        text-align: center;
+                    }
+
+                    li{
+                        padding: 4px 16px 6px 10px;
+                        font-size: $text-2;
+                        width: 100%;
+                        cursor: pointer;
+
+                        
+                        a{
+                             color: $color-grey;
+
+                            
+                        }
+                        &:hover{
+                            color: #fff;
+                            background-color: $color-link;
+                        }
+                        
+
+
+                        
+                    }
+                    
+
+                    input {
+                        background-color: $color-border;
+                        border: 1px solid $color-border;
+                        border-radius: 6px;
+                        padding: 7px 5px 7px 5px;
+                        color: $color-grey;
+                        margin-top: 5px;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    .border{
+                        border-bottom: 1px solid rgb(58, 58, 58);
+                    }
+
+                    li ul{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        align-items: flex-start;
+                        
+                    }
+                }
+
+                &:hover{
+                        .secondary-hover{
+                            display: flex;
+                        }
+                    
+                }
+            }
+        }
+        
+
+        .main{
+            background-color: $color-black;
+
+            .container{
+                display: flex;
+                flex-direction: column;
+                
+                .links{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    max-width: 1280px;
+                    margin: auto;
+                    
+
+                    .space-links{
+                        padding: 0px 16px;
+                        flex: 3;
+                    }
+                    
+                    .profile-links{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        margin-top: 20px;
+                        padding: 10px 0px;
+                        height: 100%;
+                        flex: 9;
+                        border-bottom: 1px solid rgb(58, 58, 58);
+                        
+                        height: 100%;
+                        line-height: 30px;
+    
+                        .profile-link{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 0px 13px;
+                            line-height: 30px;
+
+                            .profile-active{
+                                text-decoration: underline 3px solid #f78166;
+                                text-underline-offset: 16px;
+    
+                                
+                            }
+
+                            .repository-number{
+                                background-color: gray;
+                                color: white;
+                                border-radius: 12px;
+                                line-height: 20px;
+                                
+                                text-align: center;
+                                align-content: center;
+                                
+                                padding: 0px 6px;
+                                margin-left: 5px;
+                            }
+                            
+
+                            
+                            
+                            font-size: $text-2;
+                            color: $color-grey;
+    
+                            i{
+                                margin-right: 10px;
+                                color: rgb(78, 78, 78);
+                            }
+                            a{
+                                font-size: $text-2;
+                            color: $color-grey;
+                            }
+    
+                        }
+                    }
+    
+                }
+
+
+                .main-content{
+                    display: flex;
+                    flex-direction: row;
+                    max-width: 1280px;
+                    margin: 0px auto;
+                    
+
+                    .content-left{
+                        display: flex;
+                        flex-direction: column;
+                        color: $color-grey;
+                        flex: 3;
+                        width: 100%;
+                        margin-top: -32px;
+
+                        img{
+                            border-radius: 50%;
+                            cursor: pointer;
+                            margin-bottom: 12px;
+                            align-self: center;
+                            
+                        }
+
+                        .left-title{
+                            
+                            font-size: $text-5;
+                        }
+                        .left-undertitle{
+                            font-size: $text-3;
+                            padding-bottom: 10px;
+                        }
+                        .left-bio{
+                            font-size: 18px;
+                            padding-bottom: 10px;
+                        }
+                        button{
+                            border: none;
+                            border-radius: 6px;
+                            padding: 6px;
+                            width: 95%;
+                            align-self: flex-start;
+                            background-color: $color-border;
+                            color: $color-grey;
+                            border: 1px solid $color-border;
+                            cursor: pointer;
+
+                            &:hover{
+                                background-color: #474747;
+                                border: 1px solid $color-grey;
+                            }
+                        }
+
+                        .left-stats{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+
+                            .stat{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: flex-start;
+                                margin-top: 10px;
+                                text-align: center;
+                                cursor: pointer;
+                                
+                                
+                                span{
+                                    margin-right: 7px;
+                                    color: #7a7a7a;
+                                }
+                                i{
+                                    margin-right: 5px;
+                                    color: #7a7a7a;
+                                    
+                                }
+                            }
+                        }
+
+                        .left-location{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 10px;
+                            border-bottom: 1px solid #555555;
+
+                            p{
+                                margin-left: 8px;
+                            }
+                        }
+                        .highlight{
+                            margin-top: 10px;
+                            font-size: $text-3;
+                        }
+
+                        .left-highlights{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+
+                            .pro{
+                                color: #8957e5;
+                                border: 1px solid #8957e5;
+                                line-height: 18px;
+                                padding: 2px 5px;
+                                border-radius: 8px;
+                                margin: 10px;
+                                cursor: pointer;
+                                
+                            }
+                        }
+
+                    }
+
+                    .content-right{
+                        flex: 9;
+                        width: 100%;
+                        // background-color: #7a7a7a;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0px 16px;
+
+                        .right-title{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            color: $color-grey;
+                            margin: 15px 0px 10px 0px;
+                            align-items: center;
+
+                            h2{
+                                font-size: 18px;
+                            }
+                            p{
+                                font-size: 13px;
+
+                                &:hover{
+                                    color: $color-link;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+
+                        .right-items{
+                            display: flex;
+                            flex-direction: column;
+
+                            .items-row{
+                                display: flex;
+                                flex-direction: row;
+                                margin-bottom: 10px;
+                                .mr{
+                                    margin-right: 3px;
+                                }
+                                .ml{
+                                    margin-left: 3px;
+                                }
+                                .item{
+                                    display: flex;
+                                    flex-direction: column;
+                                    background-color: $color-black;
+                                    justify-content: space-between;
+                                    border: 1px solid rgb(58, 58, 58);
+                                    padding: 16px;
+                                   
+                                    
+                                    border-radius: 10px;
+                                    p{
+                                        color: rgb(189, 189, 189);
+                                        font-size: $text-1;
+                                        padding: 3px 0px;
+                                    }
+
+                                    
+
+                                    .item-info{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        i{
+                                            color:$color-gray-text;
+                                        }
+                                        h2{
+                                            color: $color-link;
+                                            font-size: $text-3;
+                                            padding: 0px 15px;
+                                            cursor: pointer;
+
+                                            &:hover{
+                                                text-decoration: 1px underline $color-link;
+                                            }
+                                        }
+                                        
+
+                                        .item-info-left{
+                                            padding-bottom: 10px;
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                        }
+                                        .item-info-right{
+                                            padding-bottom: 10px;
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+
+                                            .privacy{
+                                                color: $color-gray-text;
+                                                margin-right: 15px;
+                                                font-size: $text-1;
+                                                border: 1px solid grey;
+                                                padding: 0px 10px;
+                                                border-radius: 8px;
+                                            }
+
+                                            
+                                        }
+                                    }
+
+                                    .item-language{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        margin-top: 6px;
+
+                                        .language-js{
+                                            padding: 6px;
+                                            border-radius: 50%;
+                                            margin-right: 6px;
+                                            
+                                            background-color: #f1e05a;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .calendar{
+                            border: 1px solid $color-border;
+                            border-radius: 6px;
+                            margin: 0px auto;
+                            display: flex;
+                            flex-direction: column;
+                            padding: 20px;
+                            width: 95%;
+
+
+                            .ContributionCalendar-label {
+                                    font-size: 9px;
+                                    fill: white;
+                                }
+                            svg{
+                                width: 100%;
+                                
+                                
+    
+
+                                g{
+                                    @for $i from 1 to 54{
+                                        $randomnr: random(7);
+
+                                        g:nth-child(#{$i}){ 
+                                            rect:nth-child(#{$randomnr}){
+                                                fill: green;
+                                            }
+                                            
+                                        }
+                                    }                                  
+                                }
+                            }
+
+                            .calendar-info{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                p{
+                                    color: $color-gray-text;
+                                    font-size: $text-2;
+                                }
+
+                                p:nth-child(1){
+                                    &:hover{
+                                        color: $color-link;
+                                        cursor: pointer;
+                                    }
+                                }
+
+                                .right-calendar-info{
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    p{
+                                        color: $color-gray-text;
+                                        font-size: $text-1;
+                                    }
+
+                                    div{
+                                        margin: 0px 3px;
+                                    }
+
+                                    .c1{
+                                        height: 10px;
+                                        width: 10px;
+                                        background-color: #161b22;
+                                    }
+                                    .c2{
+                                        height: 10px;
+                                        width: 10px;
+                                        background-color: #0e4429;
+                                    }
+                                    .c3{
+                                        height: 10px;
+                                        width: 10px;
+                                        background-color: #006d32;
+                                    }
+                                    .c4{
+                                        height: 10px;
+                                        width: 10px;
+                                        background-color: #006d32;
+                                    }
+                                    .c5{
+                                        height: 10px;
+                                        width: 10px;
+                                        background-color: #006d32;
+                                    }
+                                }
+                            }
+                        }
+
+                        .activity{
+                            width: 100%;
+                            position: relative;
+                            color: gray;
+                            
+
+                            .activity-container{
+                                width: 83%;
+                               
+                                
+                                .buttons {
+                                    display: flex;
+                                    flex-direction: column;
+                                
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    margin-top: 23px;
+                                    button{
+                                        width: 100px;
+                                        text-align: start;
+                                        color: white;
+                                        padding: 8px 16px;
+                                        margin-bottom: 10px;
+                                        border: none;
+                                        cursor: pointer;
+                                        border-radius: 6px;
+                                        
+
+                                        &:nth-child(1){
+                                            background-color: #1f6feb;
+                                        }
+                                        &:nth-child(2){
+                                            background-color: #0d1117;
+                                            color: $color-gray-text;
+                                            &:hover{
+                                                background-color: rgb(20, 20, 20);
+                                            }
+                                        }
+
+                                        
+                                    }
+                                    
+                                }
+
+                                .activity-heading{
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+
+                                    .line{
+                                        height: 1px;
+                                        width: 100%;
+                                        background-color: $color-gray-text;
+                                        flex: 5;
+                                    }
+                                    p{
+                                        flex: 1;
+                                        width: 100%;
+                                        font-size: $text-3;
+                                    }
+                                }
+
+                                .activity-box{
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    .activity-row{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        margin-top: 30px;
+                                        
+                                        align-items: center;
+                                        .box-left{
+                                            flex: 2;
+
+                                            display: flex;
+                                            flex-direction: column;
+                                            
+                                            h2{
+                                                font-size: 16px;
+                                                color: whitesmoke;
+                                            }
+                                            p{
+                                                color: $color-link;
+                                                font-size: 14px;
+                                                cursor: pointer;
+                                                padding-top: 5px;
+                                                &:hover{
+                                                    text-decoration: 1px underline $color-link;
+                                                }
+                                            }
+                                        }
+                                        .box-right1{
+                                            flex: 1;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: flex-end;
+                                            
+                                            
+                                            
+
+                                            .progress1{
+                                                
+                                                height: 10px;
+                                                width: 70%;
+                                                border-radius: 10px;
+                                                background-color: green;
+                                            }
+                                            .progress2{
+                                                margin-top: 10px;
+                                               
+                                                height: 10px;
+                                                width: 50%;
+                                                border-radius: 10px;
+                                                background-color: green;
+                                            }
+                                        }
+                                        .box-right2{
+                                            flex: 1;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: flex-end;
+                                            
+
+
+                                            .right{
+                                                display: flex;
+                                                flex-direction: row;
+                                                justify-content: space-between;
+                                                font-size: $text-1;
+                                                margin-top: 7px;
+                                                .right-language{
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    align-items: center;
+                                                    font-size: $text-2;
+
+                                                    .scss{
+                                                        
+                                                        height: 12px;
+                                                    width: 12px;
+                                                    margin-right: 5px;
+                                                    border-radius: 50%;
+                                                    background-color: #B34936;
+                                                    }
+                                                    .html{
+                                                    height: 12px;
+                                                    width: 12px;
+                                                    margin-right: 5px;
+                                                    border-radius: 50%;
+                                                    background-color: #e44b23;
+                                                    }
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                
+                                .show-more{
+                                    width: 100%;
+                                    border: 1px solid $color-gray-text;
+                                    background-color: $color-black;
+                                    color: $color-link;
+                                    margin-top: 30px;
+                                    padding: 8px 0px;
+                                    border-radius: 6px;
+
+                                    cursor: pointer;
+
+                                    &:hover{
+                                        background-color: $color-secondary;
+                                    }
+                                }
+
+                                .unexpected{
+                                    color: gray;
+                                    margin: 30px 0px 50px 0px;
+                                    font-size: $text-1;
+                                    span{
+                                        color: $color-link;
+                                        cursor: pointer;
+                                        
+                                        &:hover{
+                                            text-decoration: underline $color-link;
+                                        }
+                                    }
+                                }
+                                
+                               
+
+                                
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+
+        footer{
+            background-color: $color-black;
+
+            .footer-links{
+                margin: 0 auto;
+                width: 90%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color: $color-link;
+                font-size: $text-1;
+                padding: 40px 0px;
+                border-top: 1px solid rgb(63, 63, 63);
+
+                li{
+                    cursor: pointer;
+                    &:hover{
+                        text-decoration: underline $color-link;
+                    }
+                }
+
+                img{
+                    margin: 0px 50px;
+                }
+
+                li:nth-child(1){
+                    color: gray;
+                }
+            }
+        }
+    }
+    
+}
+
+// @media (max-width: 1000px){
+//     body{
+        
+//     }
+    
+// }

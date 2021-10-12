@@ -442,10 +442,83 @@
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+                position: relative;
 
                 i {
                     padding: 0px 3px;
                     font-size: 12px;
+                }
+
+                .secondary-hover{
+                    display: none;
+                    
+                    flex-direction: column;
+                    position: absolute;
+                    align-items: flex-start;
+                    background-color: $color-black;
+                    top: 18px;
+                    right: -10px;
+                    padding: 10px;
+                    border-radius: 6px;
+                    border: 1px solid rgb(58, 58, 58);
+                    .align{
+                        text-align: center;
+                    }
+
+                    li{
+                        padding: 4px 16px 6px 10px;
+                        font-size: $text-2;
+                        width: 100%;
+                        cursor: pointer;
+
+                        
+                        a{
+                             color: $color-grey;
+
+                            
+                        }
+                        &:hover{
+                            color: #fff;
+                            background-color: $color-link;
+                        }
+                        
+
+
+                        
+                    }
+                    
+
+                    input {
+                        background-color: $color-border;
+                        border: 1px solid $color-border;
+                        border-radius: 6px;
+                        padding: 7px 5px 7px 5px;
+                        color: $color-grey;
+                        margin-top: 5px;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    .border{
+                        border-bottom: 1px solid rgb(58, 58, 58);
+                    }
+
+                    li ul{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        align-items: flex-start;
+                        
+                    }
+                }
+
+                &:hover{
+                        .secondary-hover{
+                            display: flex;
+                        }
+                    
                 }
             }
         }
@@ -882,11 +955,83 @@
             .header-group {
                 display: flex;
                 flex-direction: row;
-                align-items: center;
+                position: relative;
 
                 i {
                     padding: 0px 3px;
                     font-size: 12px;
+                }
+
+                .secondary-hover{
+                    display: none;
+                    
+                    flex-direction: column;
+                    position: absolute;
+                    align-items: flex-start;
+                    background-color: $color-black;
+                    top: 18px;
+                    right: -10px;
+                    padding: 10px;
+                    border-radius: 6px;
+                    border: 1px solid rgb(58, 58, 58);
+                    .align{
+                        text-align: center;
+                    }
+
+                    li{
+                        padding: 4px 16px 6px 10px;
+                        font-size: $text-2;
+                        width: 100%;
+                        cursor: pointer;
+
+                        
+                        a{
+                             color: $color-grey;
+
+                            
+                        }
+                        &:hover{
+                            color: #fff;
+                            background-color: $color-link;
+                        }
+                        
+
+
+                        
+                    }
+                    
+
+                    input {
+                        background-color: $color-border;
+                        border: 1px solid $color-border;
+                        border-radius: 6px;
+                        padding: 7px 5px 7px 5px;
+                        color: $color-grey;
+                        margin-top: 5px;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    .border{
+                        border-bottom: 1px solid rgb(58, 58, 58);
+                    }
+
+                    li ul{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        align-items: flex-start;
+                        
+                    }
+                }
+
+                &:hover{
+                        .secondary-hover{
+                            display: flex;
+                        }
+                    
                 }
             }
         }

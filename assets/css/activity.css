@@ -501,10 +501,75 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    position: relative;
   }
   body header .header-group i {
     padding: 0px 3px;
     font-size: 12px;
+  }
+  body header .header-group .secondary-hover {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #0d1117;
+    top: 18px;
+    right: -10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #3a3a3a;
+  }
+  body header .header-group .secondary-hover .align {
+    text-align: center;
+  }
+  body header .header-group .secondary-hover li {
+    padding: 4px 16px 6px 10px;
+    font-size: 14px;
+    width: 100%;
+    cursor: pointer;
+  }
+  body header .header-group .secondary-hover li a {
+    color: #C9D1D9;
+  }
+  body header .header-group .secondary-hover li:hover {
+    color: #fff;
+    background-color: #58A6FF;
+  }
+  body header .header-group .secondary-hover input {
+    background-color: #21262d;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    padding: 7px 5px 7px 5px;
+    color: #C9D1D9;
+    margin-top: 5px;
+  }
+  body header .header-group .secondary-hover input:focus {
+    outline: none;
+  }
+  body header .header-group .secondary-hover .border {
+    border-bottom: 1px solid #3a3a3a;
+  }
+  body header .header-group .secondary-hover li ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body header .header-group:hover .secondary-hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   body .activity-main {
     width: 100%;
@@ -986,13 +1051,75 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    position: relative;
   }
   body header .header-group i {
     padding: 0px 3px;
     font-size: 12px;
+  }
+  body header .header-group .secondary-hover {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #0d1117;
+    top: 18px;
+    right: -10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #3a3a3a;
+  }
+  body header .header-group .secondary-hover .align {
+    text-align: center;
+  }
+  body header .header-group .secondary-hover li {
+    padding: 4px 16px 6px 10px;
+    font-size: 14px;
+    width: 100%;
+    cursor: pointer;
+  }
+  body header .header-group .secondary-hover li a {
+    color: #C9D1D9;
+  }
+  body header .header-group .secondary-hover li:hover {
+    color: #fff;
+    background-color: #58A6FF;
+  }
+  body header .header-group .secondary-hover input {
+    background-color: #21262d;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    padding: 7px 5px 7px 5px;
+    color: #C9D1D9;
+    margin-top: 5px;
+  }
+  body header .header-group .secondary-hover input:focus {
+    outline: none;
+  }
+  body header .header-group .secondary-hover .border {
+    border-bottom: 1px solid #3a3a3a;
+  }
+  body header .header-group .secondary-hover li ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body header .header-group:hover .secondary-hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   body .activity-main {
     width: 100%;
