@@ -708,6 +708,13 @@
                         flex-direction: row;
                         color: #fff;
 
+                        .responsive-link{
+                            display: block;
+                        }
+                        .responsive-link-2{
+                            display: none;
+                        }
+
                         li {
                             padding: 0px 10px;
                             cursor: pointer;
@@ -1541,6 +1548,13 @@
                         flex-direction: row;
                         color: #fff;
 
+                        .responsive-link{
+                            display: block;
+                        }
+                        .responsive-link-2{
+                            display: none;
+                        }
+
                         li {
                             padding: 0px 10px;
                             cursor: pointer;
@@ -2350,6 +2364,13 @@
                         flex-direction: row;
                         color: #fff;
 
+                        .responsive-link{
+                            display: none;
+                        }
+                        .responsive-link-2{
+                            display: block;
+                        }
+
                         li {
                             padding: 0px 10px;
                             cursor: pointer;
@@ -2586,6 +2607,8 @@
                             cursor: pointer;
                             margin-bottom: 12px;
                             align-self: center;
+                            height: 260px;
+                            width: 260px;
                             
                         }
 

@@ -1,6 +1,6 @@
 @import "style";
 
-@media (max-width: 799px) {
+@media (max-width: 650px) {
     body {
 
         header {
@@ -340,7 +340,7 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 651px) {
     body {
         header {
             i {
@@ -390,6 +390,13 @@
                         display: flex;
                         flex-direction: row;
                         color: #fff;
+
+                        .responsive-link{
+                            display: block;
+                        }
+                        .responsive-link-2{
+                            display: none;
+                        }
 
                         li {
                             padding: 0px 10px;
@@ -904,6 +911,13 @@
                         display: flex;
                         flex-direction: row;
                         color: #fff;
+
+                        .responsive-link{
+                            display: none;
+                        }
+                        .responsive-link-2{
+                            display: block;
+                        }
 
                         li {
                             padding: 0px 10px;
