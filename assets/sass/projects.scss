@@ -1,8 +1,8 @@
 @import 'style';
 
+
 @media (max-width: 749px){
     body{
-
         header {
             i {
                 cursor: pointer;
@@ -53,6 +53,9 @@
             .container {
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
+                max-width: 1280px;
+                margin: 0 auto;
 
                 .links{
                     display: flex;
@@ -125,7 +128,9 @@
                 .main-content {
                     display: flex;
                     flex-direction: column;
-                    margin: 0px auto;
+
+                    width: 100%;
+                    align-self: flex-end;
 
 
                     .content-left{
@@ -232,249 +237,120 @@
                     }
 
                     .content-right {
-                        width: 100%;
-                        // background-color: #7a7a7a;
                         display: flex;
                         flex-direction: column;
-                        padding: 0px 16px;
+   
+                        .content-title{  
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-content: center;
+                            margin-top: 20px;
+                            
 
-                        .right-title {
+                            input {
+                                background-color: $color-black;
+                                border: none;
+                                border: 1px solid $color-border;
+                                border-radius: 6px;
+                                padding: 8px 12px;
+                                width: auto;
+                                color: $color-grey;
+                                font-size: $text-2;
+                                line-height: 20px;
+                                width: 90%;
+
+                                &:focus {
+                                    outline: none;
+                                }
+                            }
+                            button {
+                                display: none;
+                            }
+                        }
+
+                        .content-box{
                             display: flex;
                             flex-direction: column;
-                            justify-content: space-between;
-                            margin-top: 15px;
-                            align-items: center;
+                            margin-top: 20px;
+                            width: 100%;
+                            margin-bottom: 60px;
+                            padding: 20px;
 
-                            button {
-                                order: -1;
-                                padding: 8px 16px;
-                                font-size: $text-2;
-                                background-color: $color-btn;
-                                border: none;
-                                color: #fff;
-                                border-radius: 6px;
-                                cursor: pointer;
+                            .box-head{
                                 display: flex;
                                 flex-direction: row;
-                                justify-content: center;
-                                margin-top: 5px;
-                                
-                                width: 100%;
-                                
+                                justify-content: space-between;
+                                background-color: $color-secondary;
+                                padding: 20px;
+                                color: $color-grey;
+                                border: 1px solid rgb(41, 40, 40);
+                                border-radius: 10px 10px 0px 0px;
 
-                                i {
-                                    padding-right: 5px;
-                                }
-
-                            }
-
-                            .title {
-                                display: flex;
-                                flex-direction: column;
-                                width: 80%;
-                                
-
-                                input {
-                                    background-color: $color-black;
-                                    border: none;
-                                    border: 1px solid $color-border;
-                                    border-radius: 6px;
-                                    padding: 8px 12px;
-                                    width: auto;
-                                    color: $color-grey;
-                                    font-size: $text-2;
-                                    line-height: 20px;
-                                    width: 100%;
-                                    margin-top: 20px;
-                                    margin-bottom: 10px;
-
-                                    &:focus {
-                                        outline: none;
-                                    }
-                                }
-
-                                .title-buttons {
+                                .head-left{
                                     display: flex;
                                     flex-direction: row;
-                                    
-                                    justify-content: flex-start;
-                                    
-                                    align-self: flex-start;
+                                    i{
+                                        padding: 0px 10px 0px 0px;
+                                    }
 
-                                    button {
-                                        padding: 8px 16px;
-                                        font-size: $text-2;
-                                        background-color: $color-border;
-                                        border: none;
-                                        color: #fff;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        margin-left: 6px;
+                                    .left-1{
                                         display: flex;
                                         flex-direction: row;
                                         align-items: center;
-
-                                        i {
-                                            padding-left: 4px;
-                                        }
                                     }
-
-                                }
-                            }
-
-
-                        }
-
-                        .right-items {
-                            display: flex;
-                            flex-direction: column;
-                            margin-bottom: 10px;
-
-                            .mr {
-                                margin-right: 3px;
-                            }
-
-                            .ml {
-                                margin-left: 3px;
-                            }
-
-                            .item {
-                                display: flex;
-                                flex-direction: row;
-                                background-color: $color-black;
-                                justify-content: space-between;
-                                border-bottom: 1px solid rgb(58, 58, 58);
-                                padding: 16px 0px;
-                                margin-top: 15px;
-
-
-                                .item-left {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: flex-start;
-                                    flex: 0.9;
-
-                                    .item-title {
+                                    .left-2{
                                         display: flex;
                                         flex-direction: row;
-
-                                        h2 {
-                                            color: $color-link;
-                                            font-size: 22px;
-                                            cursor: pointer;
-
-                                            &:hover {
-                                                text-decoration: 1px underline $color-link;
-                                            }
-
-                                        }
-
-                                        .privacy {
-                                            align-self: center;
-                                            color: $color-gray-text;
-                                            margin-right: 15px;
-                                            font-size: $text-1;
-                                            border: 1px solid grey;
-                                            padding: 0px 10px;
-                                            border-radius: 8px;
-                                            margin: 0px 10px;
-                                        }
-                                    }
-
-                                    p {
-                                        color: rgb(182, 182, 182);
-                                        font-size: 14px;
-                                        padding: 5px 0px;
-                                    }
-
-                                    .item-language {
-                                        display: flex;
-                                        flex-direction: row;
+                                        margin-left: 20px;
                                         align-items: center;
-                                        justify-content: flex-start;
-
-                                        .language-js {
-                                            padding: 6px;
-                                            border-radius: 50%;
-                                            margin-right: 6px;
-                                            background-color: #f1e05a;
-
-                                        }
-
-                                        span {
-                                            margin-left: 10px;
-                                            font-size: $text-1;
-                                            align-self: center;
-                                            color: gray;
-                                        }
-                                    }
-                                }
-
-                                .item-right {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: space-around;
-                                    align-items: center;
-
-                                    img{
-                                        display: none;
-                                    }
-
-                                    button {
-                                        margin-left: auto;
-                                        padding: 8px 16px;
-                                        font-size: $text-2;
-                                        background-color: $color-secondary;
-                                        border: none;
                                         color: gray;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-
-                                        i {
-                                            padding-right: 5px;
-                                        }
-
                                     }
                                 }
+                                .head-right{
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    color: gray;
+                                    i{
+                                        padding: 0px 0px 0px 10px;
+                                    }
+                                }
+                                
                             }
-
-                            .right-last-buttons {
+                            .box-body{
                                 display: flex;
-                                flex-direction: row;
-                                align-content: center;
+                                flex-direction: column;
                                 justify-content: center;
-                                margin: 30px 0px 60px 0px;
+                                align-content: center;
+                                align-items: center;
+                                background-color: $color-black;
+                                padding: 60px;
+                                color: $color-grey;
+                                border: 1px solid rgb(41, 40, 40);
+                                border-radius: 0px 0px 10px 10px;
 
                                 button {
-                                    padding: 8px 16px;
-                                    border: 1px solid rgb(54, 54, 54);
-                                    font-size: $text-3;
-
-                                }
-
-                                .prev {
-                                    background-color: $color-black;
-                                    color: $color-link;
-                                    border-radius: 6px 0px 0px 6px;
-                                }
-
-                                .next {
-                                    background-color: $color-border;
-                                    color: rgb(161, 161, 243);
-                                    border-radius: 0px 6px 6px 0px;
+                                    margin: 20px 0px;
+                                    padding: 9px 20px;
+                                    // width: 115px;
+                                    // height: 32px;
+                                    font-size: $text-2;
+                                    background-color: $color-btn;
+                                    border: none;
+                                    color: #fff;
+                                    border-radius: 6px;
                                     cursor: pointer;
-
+                                    align-self: center;
                                 }
                             }
-
                         }
+
                     }
                 }
             }
         }
+
 
 
         footer{
@@ -514,6 +390,7 @@
 
 @media (min-width: 750px){
     body{
+
         header {
             i {
                 cursor: pointer;
@@ -703,13 +580,15 @@
         }
 
 
-
         .main {
             background-color: $color-black;
 
             .container {
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
+                max-width: 1280px;
+                margin: 0 auto;
 
                 .links{
                     display: flex;
@@ -790,8 +669,9 @@
                 .main-content {
                     display: flex;
                     flex-direction: row;
-                    max-width: 1280px;
-                    margin: 0px auto;
+
+                    width: 100%;
+                    align-self: flex-end;
 
 
                     .content-left{
@@ -929,248 +809,128 @@
 
                     .content-right {
                         flex: 9;
-                        width: 100%;
-                        // background-color: #7a7a7a;
                         display: flex;
                         flex-direction: column;
                         padding: 0px 16px;
-
-                        .right-title {
+   
+                        .content-title{  
                             display: flex;
                             flex-direction: row;
                             justify-content: space-between;
-                            margin-top: 15px;
-                            align-items: center;
+                            align-content: center;
+                            margin-top: 20px;
+                            
 
+                            input {
+                                background-color: $color-black;
+                                border: none;
+                                border: 1px solid $color-border;
+                                border-radius: 6px;
+                                padding: 8px 12px;
+                                width: auto;
+                                color: $color-grey;
+                                font-size: $text-2;
+                                line-height: 20px;
+                                width: 60%;
+
+                                &:focus {
+                                    outline: none;
+                                }
+                            }
                             button {
-                                padding: 8px 16px;
+                                padding: 9px 20px;
+                                // width: 115px;
+                                // height: 32px;
                                 font-size: $text-2;
                                 background-color: $color-btn;
                                 border: none;
                                 color: #fff;
                                 border-radius: 6px;
-                                cursor: pointer;
-                                display: flex;
-                                flex-direction: row;
-                                align-items: center;
-                                margin-top: 5px;
-                                align-self: flex-start;
-                                
-
-                                i {
-                                    padding-right: 5px;
-                                }
-
+                                cursor: pointer;                                
+                                align-self: center;
                             }
-
-                            .title {
-                                display: flex;
-                                flex-direction: column;
-                                width: 80%;
-                                
-
-                                input {
-                                    background-color: $color-black;
-                                    border: none;
-                                    border: 1px solid $color-border;
-                                    border-radius: 6px;
-                                    padding: 8px 12px;
-                                    width: auto;
-                                    color: $color-grey;
-                                    font-size: $text-2;
-                                    line-height: 20px;
-                                    width: 100%;
-
-                                    &:focus {
-                                        outline: none;
-                                    }
-                                }
-
-                                .title-buttons {
-                                    display: flex;
-                                    flex-direction: row;
-                                    
-                                    justify-content: flex-start;
-
-                                    button {
-                                        padding: 8px 16px;
-                                        font-size: $text-2;
-                                        background-color: $color-border;
-                                        border: none;
-                                        color: #fff;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        margin-left: 6px;
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-
-                                        i {
-                                            padding-left: 4px;
-                                        }
-                                    }
-
-                                }
-                            }
-
-
                         }
 
-                        .right-items {
+                        .content-box{
                             display: flex;
                             flex-direction: column;
-                            margin-bottom: 10px;
+                            margin-top: 20px;
+                            width: 100%;
+                            margin-bottom: 180px;
 
-                            .mr {
-                                margin-right: 3px;
-                            }
-
-                            .ml {
-                                margin-left: 3px;
-                            }
-
-                            .item {
+                            .box-head{
                                 display: flex;
                                 flex-direction: row;
-                                background-color: $color-black;
                                 justify-content: space-between;
-                                border-bottom: 1px solid rgb(58, 58, 58);
-                                padding: 16px 0px;
-                                margin-top: 15px;
+                                background-color: $color-secondary;
+                                padding: 20px;
+                                color: $color-grey;
+                                border: 1px solid rgb(41, 40, 40);
+                                border-radius: 10px 10px 0px 0px;
 
-
-                                .item-left {
+                                .head-left{
                                     display: flex;
-                                    flex-direction: column;
-                                    justify-content: flex-start;
-                                    flex: 0.9;
-
-                                    .item-title {
-                                        display: flex;
-                                        flex-direction: row;
-
-                                        h2 {
-                                            color: $color-link;
-                                            font-size: 22px;
-                                            cursor: pointer;
-
-                                            &:hover {
-                                                text-decoration: 1px underline $color-link;
-                                            }
-
-                                        }
-
-                                        .privacy {
-                                            align-self: center;
-                                            color: $color-gray-text;
-                                            margin-right: 15px;
-                                            font-size: $text-1;
-                                            border: 1px solid grey;
-                                            padding: 0px 10px;
-                                            border-radius: 8px;
-                                            margin: 0px 10px;
-                                        }
+                                    flex-direction: row;
+                                    i{
+                                        padding: 0px 10px 0px 0px;
                                     }
 
-                                    p {
-                                        color: rgb(182, 182, 182);
-                                        font-size: 16px;
-                                        padding: 5px 0px;
-                                    }
-
-                                    .item-language {
+                                    .left-1{
                                         display: flex;
                                         flex-direction: row;
                                         align-items: center;
-                                        justify-content: flex-start;
-
-                                        .language-js {
-                                            padding: 6px;
-                                            border-radius: 50%;
-                                            margin-right: 6px;
-                                            background-color: #f1e05a;
-
-                                        }
-
-                                        span {
-                                            margin-left: 10px;
-                                            font-size: $text-1;
-                                            align-self: center;
-                                            color: gray;
-                                        }
                                     }
-                                }
-
-                                .item-right {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: space-around;
-                                    align-items: center;
-
-                                    img{
-                                        display: none;
-                                    }
-
-                                    button {
-                                        margin-left: auto;
-                                        padding: 8px 16px;
-                                        font-size: $text-2;
-                                        background-color: $color-secondary;
-                                        border: none;
+                                    .left-2{
+                                        display: flex;
+                                        flex-direction: row;
+                                        margin-left: 20px;
+                                        align-items: center;
                                         color: gray;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-
-                                        i {
-                                            padding-right: 5px;
-                                        }
-
                                     }
                                 }
+                                .head-right{
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    color: gray;
+                                    i{
+                                        padding: 0px 0px 0px 10px;
+                                    }
+                                }
+                                
                             }
-
-                            .right-last-buttons {
+                            .box-body{
                                 display: flex;
-                                flex-direction: row;
-                                align-content: center;
+                                flex-direction: column;
                                 justify-content: center;
-                                margin: 30px 0px 60px 0px;
+                                align-content: center;
+                                align-items: center;
+                                background-color: $color-black;
+                                padding: 60px;
+                                color: $color-grey;
+                                border: 1px solid rgb(41, 40, 40);
+                                border-radius: 0px 0px 10px 10px;
 
                                 button {
-                                    padding: 8px 16px;
-                                    border: 1px solid rgb(54, 54, 54);
-                                    font-size: $text-3;
-
-                                }
-
-                                .prev {
-                                    background-color: $color-black;
-                                    color: $color-link;
-                                    border-radius: 6px 0px 0px 6px;
-                                }
-
-                                .next {
-                                    background-color: $color-border;
-                                    color: rgb(161, 161, 243);
-                                    border-radius: 0px 6px 6px 0px;
+                                    margin: 20px 0px;
+                                    padding: 9px 20px;
+                                    // width: 115px;
+                                    // height: 32px;
+                                    font-size: $text-2;
+                                    background-color: $color-btn;
+                                    border: none;
+                                    color: #fff;
+                                    border-radius: 6px;
                                     cursor: pointer;
-
+                                    align-self: center;
                                 }
                             }
-
                         }
+
                     }
                 }
             }
         }
-
-        
-
-
-
 
         footer{
             background-color: $color-black;
@@ -1405,10 +1165,14 @@
 
         .main {
             background-color: $color-black;
+            height: 100vh;
 
             .container {
                 display: flex;
                 flex-direction: column;
+                // justify-content: center;
+                max-width: 1280px;
+                
 
                 .links {
                     display: flex;
@@ -1490,8 +1254,9 @@
                 .main-content {
                     display: flex;
                     flex-direction: row;
-                    max-width: 1280px;
-                    margin: 0px auto;
+
+                    width: 100%;
+                    
 
 
                     .content-left {
@@ -1634,236 +1399,123 @@
 
                     .content-right {
                         flex: 9;
-                        width: 100%;
-                        // background-color: #7a7a7a;
                         display: flex;
                         flex-direction: column;
                         padding: 0px 16px;
-
-                        .right-title {
+   
+                        .content-title{  
                             display: flex;
                             flex-direction: row;
                             justify-content: space-between;
-                            margin-top: 15px;
-                            align-items: center;
+                            align-content: center;
+                            margin-top: 20px;
+                            
 
+                            input {
+                                background-color: $color-black;
+                                border: none;
+                                border: 1px solid $color-border;
+                                border-radius: 6px;
+                                padding: 8px 12px;
+                                width: auto;
+                                color: $color-grey;
+                                font-size: $text-2;
+                                line-height: 20px;
+                                width: 80%;
+
+                                &:focus {
+                                    outline: none;
+                                }
+                            }
                             button {
-                                padding: 8px 16px;
+                                padding: 9px 20px;
+                                // width: 115px;
+                                // height: 32px;
                                 font-size: $text-2;
                                 background-color: $color-btn;
                                 border: none;
                                 color: #fff;
                                 border-radius: 6px;
-                                cursor: pointer;
-                                display: flex;
-                                flex-direction: row;
-                                align-items: center;
-
-                                i {
-                                    padding-right: 5px;
-                                }
-
+                                cursor: pointer;                                
+                                align-self: center;
                             }
-
-                            .title {
-                                display: flex;
-                                flex-direction: row;
-                                width: 100%;
-
-                                input {
-                                    background-color: $color-black;
-                                    border: none;
-                                    border: 1px solid $color-border;
-                                    border-radius: 6px;
-                                    padding: 8px 12px;
-                                    width: auto;
-                                    color: $color-grey;
-                                    font-size: $text-2;
-                                    line-height: 20px;
-                                    width: 100%;
-
-                                    &:focus {
-                                        outline: none;
-                                    }
-                                }
-
-                                .title-buttons {
-                                    display: flex;
-                                    flex-direction: row;
-                                    margin: 0px 30px 0px 30px;
-
-                                    button {
-                                        padding: 8px 16px;
-                                        font-size: $text-2;
-                                        background-color: $color-border;
-                                        border: none;
-                                        color: #fff;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        margin-left: 6px;
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-
-                                        i {
-                                            padding-left: 4px;
-                                        }
-                                    }
-
-                                }
-                            }
-
-
                         }
 
-                        .right-items {
+                        .content-box{
                             display: flex;
                             flex-direction: column;
-                            margin-bottom: 10px;
+                            margin-top: 20px;
+                            width: 100%;
 
-                            .mr {
-                                margin-right: 3px;
-                            }
-
-                            .ml {
-                                margin-left: 3px;
-                            }
-
-                            .item {
+                            .box-head{
                                 display: flex;
                                 flex-direction: row;
-                                background-color: $color-black;
                                 justify-content: space-between;
-                                border-bottom: 1px solid rgb(58, 58, 58);
-                                padding: 16px 0px;
-                                margin-top: 15px;
+                                background-color: $color-secondary;
+                                padding: 20px;
+                                color: $color-grey;
+                                border: 1px solid rgb(41, 40, 40);
+                                border-radius: 10px 10px 0px 0px;
 
-
-                                .item-left {
+                                .head-left{
                                     display: flex;
-                                    flex-direction: column;
-                                    justify-content: flex-start;
-                                    flex: 0.9;
-
-                                    .item-title {
-                                        display: flex;
-                                        flex-direction: row;
-
-                                        h2 {
-                                            color: $color-link;
-                                            font-size: 22px;
-                                            cursor: pointer;
-
-                                            &:hover {
-                                                text-decoration: 1px underline $color-link;
-                                            }
-
-                                        }
-
-                                        .privacy {
-                                            align-self: center;
-                                            color: $color-gray-text;
-                                            margin-right: 15px;
-                                            font-size: $text-1;
-                                            border: 1px solid grey;
-                                            padding: 0px 10px;
-                                            border-radius: 8px;
-                                            margin: 0px 10px;
-                                        }
+                                    flex-direction: row;
+                                    i{
+                                        padding: 0px 10px 0px 0px;
                                     }
 
-                                    p {
-                                        color: rgb(182, 182, 182);
-                                        font-size: 16px;
-                                        padding: 5px 0px;
-                                    }
-
-                                    .item-language {
+                                    .left-1{
                                         display: flex;
                                         flex-direction: row;
                                         align-items: center;
-                                        justify-content: flex-start;
-
-                                        .language-js {
-                                            padding: 6px;
-                                            border-radius: 50%;
-                                            margin-right: 6px;
-                                            background-color: #f1e05a;
-
-                                        }
-
-                                        span {
-                                            margin-left: 10px;
-                                            font-size: $text-1;
-                                            align-self: center;
-                                            color: gray;
-                                        }
                                     }
-                                }
-
-                                .item-right {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: space-around;
-                                    align-items: center;
-
-                                    img{
-                                        display: block;
-                                    }
-
-                                    button {
-                                        margin-left: auto;
-                                        padding: 8px 16px;
-                                        font-size: $text-2;
-                                        background-color: $color-secondary;
-                                        border: none;
+                                    .left-2{
+                                        display: flex;
+                                        flex-direction: row;
+                                        margin-left: 20px;
+                                        align-items: center;
                                         color: gray;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-
-                                        
-
-                                        i {
-                                            padding-right: 5px;
-                                        }
-
                                     }
                                 }
+                                .head-right{
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    color: gray;
+                                    i{
+                                        padding: 0px 0px 0px 10px;
+                                    }
+                                }
+                                
                             }
-
-                            .right-last-buttons {
+                            .box-body{
                                 display: flex;
-                                flex-direction: row;
-                                align-content: center;
+                                flex-direction: column;
                                 justify-content: center;
-                                margin: 30px 0px 60px 0px;
+                                align-content: center;
+                                align-items: center;
+                                background-color: $color-black;
+                                padding: 60px;
+                                color: $color-grey;
+                                border: 1px solid rgb(41, 40, 40);
+                                border-radius: 0px 0px 10px 10px;
 
                                 button {
-                                    padding: 8px 16px;
-                                    border: 1px solid rgb(54, 54, 54);
-                                    font-size: $text-3;
-
-                                }
-
-                                .prev {
-                                    background-color: $color-black;
-                                    color: $color-link;
-                                    border-radius: 6px 0px 0px 6px;
-                                }
-
-                                .next {
-                                    background-color: $color-border;
-                                    color: rgb(161, 161, 243);
-                                    border-radius: 0px 6px 6px 0px;
+                                    margin: 20px 0px;
+                                    padding: 9px 20px;
+                                    // width: 115px;
+                                    // height: 32px;
+                                    font-size: $text-2;
+                                    background-color: $color-btn;
+                                    border: none;
+                                    color: #fff;
+                                    border-radius: 6px;
                                     cursor: pointer;
-
+                                    align-self: center;
                                 }
                             }
-
                         }
+
                     }
                 }
             }
@@ -1889,10 +1541,6 @@
                     &:hover {
                         text-decoration: underline $color-link;
                     }
-                }
-
-                img {
-                    margin: 0px 50px;
                 }
 
                 li:nth-child(1) {
