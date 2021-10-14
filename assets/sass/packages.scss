@@ -131,6 +131,7 @@
 
                     width: 100%;
                     align-self: flex-end;
+                    margin-bottom: 60px;
 
 
                     .content-left{
@@ -239,121 +240,123 @@
                     .content-right {
                         display: flex;
                         flex-direction: column;
-   
-                        .content-title{  
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: center;
-                            align-content: center;
-                            margin-top: 20px;
-                            
+                        padding: 0px 16px;
+                        margin-top: 32px;
+                        height: auto;
 
-                            input {
-                                background-color: $color-black;
-                                border: none;
-                                border: 1px solid $color-border;
-                                border-radius: 6px;
-                                padding: 8px 12px;
-                                width: auto;
-                                color: $color-grey;
-                                font-size: $text-2;
-                                line-height: 20px;
-                                width: 90%;
-
-                                &:focus {
-                                    outline: none;
-                                }
-                            }
-                            button {
-                                display: none;
-                            }
+                        h3{
+                            align-self: center;
+                            font-size: 16px;
+                            color: $color-text;
+                        }
+                        .mb{
+                            margin-bottom: 80px;
                         }
 
-                        .content-box{
+                        .packages-heading{
                             display: flex;
                             flex-direction: column;
-                            margin-top: 20px;
-                            width: 100%;
-                            margin-bottom: 60px;
-                            padding: 20px;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
 
-                            .box-head{
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: space-between;
-                                background-color: $color-secondary;
-                                padding: 20px;
-                                color: $color-grey;
-                                border: 1px solid rgb(41, 40, 40);
-                                border-radius: 10px 10px 0px 0px;
-
-                                .head-left{
-                                    display: flex;
-                                    flex-direction: row;
-                                    i{
-                                        padding: 0px 10px 0px 0px;
-                                    }
-
-                                    .left-1{
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-                                    }
-                                    .left-2{
-                                        display: flex;
-                                        flex-direction: row;
-                                        margin-left: 20px;
-                                        align-items: center;
-                                        color: gray;
-                                    }
-                                }
-                                .head-right{
-                                    display: flex;
-                                    flex-direction: row;
-                                    align-items: center;
-                                    color: gray;
-                                    i{
-                                        padding: 0px 0px 0px 10px;
-                                    }
-                                }
-                                
+                            h1{
+                                color: $color-title;
+                                font-size: 32px;
+                                margin-bottom: 8px;
                             }
-                            .box-body{
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-content: center;
-                                align-items: center;
-                                background-color: $color-black;
-                                padding: 60px;
-                                color: $color-grey;
-                                border: 1px solid rgb(41, 40, 40);
-                                border-radius: 0px 0px 10px 10px;
-                                text-align: center;
+                            h3{
+                                margin-bottom: 60px;
+                            }
 
-                                button {
-                                    margin: 20px 0px;
-                                    padding: 9px 20px;
-                                    // width: 115px;
-                                    // height: 32px;
-                                    font-size: $text-2;
-                                    background-color: $color-btn;
-                                    border: none;
-                                    color: #fff;
+
+                           
+                        }
+
+                        .boxes{
+
+                            
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: wrap;
+                            justify-content: center;
+
+                            .box{
+                                max-width: 100%;
+                                
+                                .box-container {
+                                    display: flex;
+                                    flex-direction: column;
+                                    padding: 20px;
+                                    flex: 1;
+                                    border: 1px solid $color-border;
                                     border-radius: 6px;
-                                    cursor: pointer;
-                                    align-self: center;
+                                    margin-top: 30px;
+                                    margin-right: 5px;
+                                    margin-left: 5px;
+
+                                    button {
+                                        align-self: flex-start;
+                                        padding: 4px 8px;
+                                        border-radius: 6px;
+                                        color: gray;
+                                        background-color: $color-secondary;
+                                        border: 1px solid #3d3d3d;
+                                        margin: 10px 0px;
+                                        cursor: pointer;
+
+                                        &:hover {
+                                            border: 1px solid rgb(163, 163, 163);
+                                        }
+                                    }
+
+
+                                    p {
+                                        color: $color-text;
+                                        font-size: $text-1;
+                                        line-height: 18px;
+                                        padding: 10px 26px 10px 0px;
+                                    }
+
+
+                                    .box-head {
+                                        display: flex;
+                                        flex-direction: row;
+                                        color: #C9D1D9;
+                                        font-size: 14px;
+                                        align-items: center;
+
+                                        h2 {
+                                            padding: 0px 10px;
+                                        }
+
+                                        .box-img {
+                                            height: 25px;
+                                            width: 25px;
+                                            background-color: #fff;
+                                            text-align: center;
+                                            border-radius: 50%;
+
+
+
+                                            img {
+                                                height: 16px;
+                                                margin-top: 3px;
+                                            }
+                                        }
+
+
+
+                                    }
                                 }
                             }
                         }
+   
 
                     }
                 }
             }
         }
-
-
-
         footer{
             background-color: $color-black;
 
@@ -673,6 +676,7 @@
 
                     width: 100%;
                     align-self: flex-end;
+                    margin-bottom: 40px;
 
 
                     .content-left{
@@ -813,120 +817,117 @@
                         display: flex;
                         flex-direction: column;
                         padding: 0px 16px;
-   
-                        .content-title{  
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            align-content: center;
-                            margin-top: 20px;
-                            
+                        margin-top: 32px;
+                        height: auto;
 
-                            input {
-                                background-color: $color-black;
-                                border: none;
-                                border: 1px solid $color-border;
-                                border-radius: 6px;
-                                padding: 8px 12px;
-                                width: auto;
-                                color: $color-grey;
-                                font-size: $text-2;
-                                line-height: 20px;
-                                width: 60%;
-
-                                &:focus {
-                                    outline: none;
-                                }
-                            }
-                            button {
-                                padding: 9px 20px;
-                                // width: 115px;
-                                // height: 32px;
-                                font-size: $text-2;
-                                background-color: $color-btn;
-                                border: none;
-                                color: #fff;
-                                border-radius: 6px;
-                                cursor: pointer;                                
-                                align-self: center;
-                            }
+                        h3{
+                            align-self: center;
+                            font-size: 16px;
+                            color: $color-text;
+                        }
+                        .mb{
+                            margin-bottom: 80px;
                         }
 
-                        .content-box{
+                        .packages-heading{
                             display: flex;
                             flex-direction: column;
-                            margin-top: 20px;
-                            width: 100%;
-                            margin-bottom: 180px;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
 
-                            .box-head{
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: space-between;
-                                background-color: $color-secondary;
-                                padding: 20px;
-                                color: $color-grey;
-                                border: 1px solid rgb(41, 40, 40);
-                                border-radius: 10px 10px 0px 0px;
+                            h1{
+                                color: $color-title;
+                                font-size: 32px;
+                                margin-bottom: 8px;
+                            }
+                            h3{
+                                margin-bottom: 60px;
+                            }
 
-                                .head-left{
+
+                           
+                        }
+
+                        .boxes{
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+
+                            .box {
+                                max-width: 50%;
+
+                                .box-container {
                                     display: flex;
-                                    flex-direction: row;
-                                    i{
-                                        padding: 0px 10px 0px 0px;
-                                    }
+                                    flex-direction: column;
+                                    padding: 20px;
+                                    flex: 1 200px;
+                                    border: 1px solid $color-border;
+                                    border-radius: 6px;
 
-                                    .left-1{
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-                                    }
-                                    .left-2{
-                                        display: flex;
-                                        flex-direction: row;
-                                        margin-left: 20px;
-                                        align-items: center;
+                                    margin-top: 30px;
+                                    margin-right: 5px;
+                                    margin-left: 5px;
+
+                                    button {
+                                        align-self: flex-start;
+                                        padding: 4px 8px;
+                                        border-radius: 6px;
                                         color: gray;
+                                        background-color: $color-secondary;
+                                        border: 1px solid #3d3d3d;
+                                        margin: 10px 0px;
+                                        cursor: pointer;
+
+                                        &:hover {
+                                            border: 1px solid rgb(163, 163, 163);
+                                        }
                                     }
-                                }
-                                .head-right{
-                                    display: flex;
-                                    flex-direction: row;
-                                    align-items: center;
-                                    color: gray;
-                                    i{
-                                        padding: 0px 0px 0px 10px;
+
+
+                                    p {
+                                        color: $color-text;
+                                        font-size: $text-1;
+                                        line-height: 18px;
+                                        padding: 10px 26px 10px 0px;
+                                    }
+
+
+                                    .box-head {
+                                        display: flex;
+                                        flex-direction: row;
+                                        color: #C9D1D9;
+                                        font-size: 14px;
+                                        align-items: center;
+
+                                        h2 {
+                                            padding: 0px 10px;
+                                        }
+
+                                        .box-img {
+                                            height: 25px;
+                                            width: 25px;
+                                            background-color: #fff;
+                                            text-align: center;
+                                            border-radius: 50%;
+
+
+
+                                            img {
+                                                height: 16px;
+                                                margin-top: 3px;
+                                            }
+                                        }
+
+
+
                                     }
                                 }
                                 
                             }
-                            .box-body{
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-content: center;
-                                align-items: center;
-                                background-color: $color-black;
-                                padding: 60px;
-                                color: $color-grey;
-                                border: 1px solid rgb(41, 40, 40);
-                                border-radius: 0px 0px 10px 10px;
-
-                                button {
-                                    margin: 20px 0px;
-                                    padding: 9px 20px;
-                                    // width: 115px;
-                                    // height: 32px;
-                                    font-size: $text-2;
-                                    background-color: $color-btn;
-                                    border: none;
-                                    color: #fff;
-                                    border-radius: 6px;
-                                    cursor: pointer;
-                                    align-self: center;
-                                }
-                            }
                         }
+   
 
                     }
                 }
@@ -970,6 +971,9 @@
 
 @media (min-width: 1000px) {
     body {
+
+        background-color: $color-black;
+
         header {
             i {
                 cursor: pointer;
@@ -1166,7 +1170,7 @@
 
         .main {
             background-color: $color-black;
-            height: 100vh;
+            
 
             .container {
                 display: flex;
@@ -1255,7 +1259,7 @@
                 .main-content {
                     display: flex;
                     flex-direction: row;
-
+                    margin-bottom: 40px;
                     width: 100%;
                     
 
@@ -1403,119 +1407,119 @@
                         display: flex;
                         flex-direction: column;
                         padding: 0px 16px;
-   
-                        .content-title{  
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            align-content: center;
-                            margin-top: 20px;
-                            
+                        margin-top: 32px;
+                        height: auto;
 
-                            input {
-                                background-color: $color-black;
-                                border: none;
-                                border: 1px solid $color-border;
-                                border-radius: 6px;
-                                padding: 8px 12px;
-                                width: auto;
-                                color: $color-grey;
-                                font-size: $text-2;
-                                line-height: 20px;
-                                width: 80%;
-
-                                &:focus {
-                                    outline: none;
-                                }
-                            }
-                            button {
-                                padding: 9px 20px;
-                                // width: 115px;
-                                // height: 32px;
-                                font-size: $text-2;
-                                background-color: $color-btn;
-                                border: none;
-                                color: #fff;
-                                border-radius: 6px;
-                                cursor: pointer;                                
-                                align-self: center;
-                            }
+                        h3{
+                            align-self: center;
+                            font-size: 16px;
+                            color: $color-text;
+                        }
+                        .mb{
+                            margin-bottom: 80px;
                         }
 
-                        .content-box{
+                        .packages-heading{
                             display: flex;
                             flex-direction: column;
-                            margin-top: 20px;
-                            width: 100%;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
 
-                            .box-head{
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: space-between;
-                                background-color: $color-secondary;
-                                padding: 20px;
-                                color: $color-grey;
-                                border: 1px solid rgb(41, 40, 40);
-                                border-radius: 10px 10px 0px 0px;
-
-                                .head-left{
-                                    display: flex;
-                                    flex-direction: row;
-                                    i{
-                                        padding: 0px 10px 0px 0px;
-                                    }
-
-                                    .left-1{
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-                                    }
-                                    .left-2{
-                                        display: flex;
-                                        flex-direction: row;
-                                        margin-left: 20px;
-                                        align-items: center;
-                                        color: gray;
-                                    }
-                                }
-                                .head-right{
-                                    display: flex;
-                                    flex-direction: row;
-                                    align-items: center;
-                                    color: gray;
-                                    i{
-                                        padding: 0px 0px 0px 10px;
-                                    }
-                                }
-                                
+                            h1{
+                                color: $color-title;
+                                font-size: 32px;
+                                margin-bottom: 8px;
                             }
-                            .box-body{
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-content: center;
-                                align-items: center;
-                                background-color: $color-black;
-                                padding: 60px;
-                                color: $color-grey;
-                                border: 1px solid rgb(41, 40, 40);
-                                border-radius: 0px 0px 10px 10px;
+                            h3{
+                                margin-bottom: 60px;
+                            }
 
-                                button {
-                                    margin: 20px 0px;
-                                    padding: 9px 20px;
-                                    // width: 115px;
-                                    // height: 32px;
-                                    font-size: $text-2;
-                                    background-color: $color-btn;
-                                    border: none;
-                                    color: #fff;
+
+                           
+                        }
+
+                        .boxes{
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+
+                            .box {
+                                max-width: 32%;
+
+                                .box-container {
+                                    display: flex;
+                                    flex-direction: column;
+                                    padding: 20px;
+                                    flex: 1 1 1;
+                                    border: 1px solid $color-border;
                                     border-radius: 6px;
-                                    cursor: pointer;
-                                    align-self: center;
+                                    margin-top: 20px;
+                                    margin-left: 5px;
+                                    margin-right: 5px;
+                                    width: 100%;
+                                    max-width: 300px;
+                                    // margin: 30px 10px 0px 10px;
+
+                                    button {
+                                        align-self: flex-start;
+                                        padding: 4px 8px;
+                                        border-radius: 6px;
+                                        color: gray;
+                                        background-color: $color-secondary;
+                                        border: 1px solid #3d3d3d;
+                                        margin: 10px 0px;
+                                        cursor: pointer;
+
+                                        &:hover {
+                                            border: 1px solid rgb(163, 163, 163);
+                                        }
+                                    }
+
+
+                                    p {
+                                        color: $color-text;
+                                        font-size: $text-1;
+                                        line-height: 18px;
+                                        padding: 10px 26px 10px 0px;
+                                    }
+
+
+                                    .box-head {
+                                        display: flex;
+                                        flex-direction: row;
+                                        color: #C9D1D9;
+                                        font-size: 14px;
+                                        align-items: center;
+
+                                        h2 {
+                                            padding: 0px 10px;
+                                        }
+
+                                        .box-img {
+                                            height: 25px;
+                                            width: 25px;
+                                            background-color: #fff;
+                                            text-align: center;
+                                            border-radius: 50%;
+
+
+
+                                            img {
+                                                height: 16px;
+                                                margin-top: 3px;
+                                            }
+                                        }
+
+
+
+                                    }
+
                                 }
                             }
                         }
+   
 
                     }
                 }
@@ -1523,6 +1527,7 @@
         }
 
         footer {
+            // margin-top: 100px;
             background-color: $color-black;
 
             .footer-links {
