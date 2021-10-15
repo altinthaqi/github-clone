@@ -1,0 +1,1552 @@
+@import 'style';
+
+
+@media (max-width: 749px){
+    
+    body{
+        
+        header {
+            z-index: 100;
+            i {
+                cursor: pointer;
+            }
+
+            background-color: $color-secondary;
+            width: 100%;
+            height: 62px;
+
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 100%;
+                width: 95%;
+                margin: 0 auto;
+                font-size: $text-2;
+
+            }
+
+            .primary-header,
+            .secondary-header {
+                display: none;
+            }
+
+            .header-responsive {
+                display: flex !important;
+                flex-direction: row;
+                width: 100%;
+                align-content: center;
+                align-items: center;
+                justify-content: space-between;
+
+                i {
+                    color: #fff;
+                    font-size: 20px;
+
+                    &:hover {
+                        color: #7a7a7a;
+                    }
+                }
+            }
+        }
+
+
+        .main {
+            
+
+            .container {
+                // justify-content: center;
+                display: flex;
+                flex-direction: column;
+
+                .marketplace-header{
+                    padding: 0px 40px;
+                    
+                    
+                    background-color: #fff;
+
+                    .marketplace-header-container{
+                        // position: relative;
+                        max-width: 1020px;
+                        margin: auto;
+                        // background-color: red;
+                        
+
+                        .marketplace-header-left{
+                            position: relative;
+                            padding: 40px 0px 90px 0px;
+
+                            h1{
+                                font-size: 26px;
+                                line-height: 1;
+                                text-align: center;
+                            }
+                            p{
+                                font-size: 20px;
+                                color: #57606a;
+                                margin-bottom: 24px;
+                                padding-top: 10px;
+                                text-align: center;
+                            }
+                            a{
+                                padding: 9px 14px;
+                                background-color: #fff;
+                                color: black;
+                                border-radius: 6px;
+                                border: 1px solid rgb(214, 214, 214);
+                            }
+                            img{
+                                position: absolute;
+                                right: 25%;
+                                width: 400px;
+                                bottom: -40px;
+                            }
+
+                            
+                        }
+
+                            
+
+                        
+                    }
+                }
+
+
+                .marketplace-content{
+                    background-color: #f6f8fa;
+                    padding-top: 50px;
+                    padding: 0px 40px;
+
+                    
+                    .content-main{
+                        max-width: 1020px;
+                        margin: auto;
+                        display: flex;
+                        flex-direction: row;
+                        
+                        .sidebar{
+                           display: none;
+                        }
+
+                        .marketplace-main{
+                            // background-color: blue;
+                            
+                            display: flex;
+                            flex-direction: column;
+
+                            .title{
+                                font-size: 20px;
+                                padding-top: 20px;
+                            }
+                            
+
+                            .inputs{
+                                
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                
+                                font-size: 14px;
+                                color: gray;
+                                input{
+                                    align-self: center;
+                                 padding: 10px;
+                                 width: 70%;
+                                 border-radius: 6px;
+                                 border: 1px solid rgb(194, 194, 194);
+                                 font-size: 14px;
+                                 z-index: 10;
+                                 box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                }
+                                a{
+                                    align-self: center;
+                                    padding: 12px;
+                                    width: 40%;
+                                    text-align: center;
+                                    border-radius: 6px;
+                                    background-color: #fff;
+                                    border: 1px solid rgb(194, 194, 194);
+                                    z-index: 10;
+                                    box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                    margin-top: 20px;
+                                    
+                                }
+
+                            }
+
+                            .apps {
+                                display: flex;
+
+                                flex-direction: row;
+
+                                flex-wrap: wrap;
+
+                                justify-content: space-between;
+
+                                .app-row {
+                                    display: flex;
+                                    flex-direction: column;
+                                    
+                                    width: 100%;
+                                    
+
+                                    .app {
+                                        // background-color: blue;
+                                        display: flex;
+                                        flex-direction: row;
+                                        width: 100%;
+                                        padding-top: 30px;
+
+                                        
+                                    
+
+                                        .logo {
+                                            background-color: #fff;
+
+                                            border-radius: 25px;
+                                            display: flex;
+                                            align-self: flex-start;
+                                            justify-content: center;
+                                            height: 50px;
+                                            width: 50px;
+                                            box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                            
+
+                                            // padding-right: 10px;
+
+
+                                            img {
+                                                max-height: 35px;
+                                                align-self: center;
+                                                
+
+                                            }
+
+
+                                            
+                                        }
+
+                                        
+
+                                        .app-info {
+                                            display: flex;
+                                            flex-direction: column;
+                                            flex: 4;
+                                            padding-left: 15px ;
+
+                                            span{
+                                                font-size: 12px;
+                                                padding-top: 4px;
+                                                color: rgb(42, 42, 42);
+                                            }
+
+
+
+                                            h2 {
+                                                font-size: 16px;
+                                                color: $color-blue;
+                                                padding-bottom: 2px;
+                                            }
+
+                                            p {
+                                                font-size: $text-2;
+                                                color: #57606a;
+                                                word-break: break-word;
+
+                                            }
+
+                                            a {
+                                                align-self: flex-start;
+                                                border-radius: 6px;
+                                                font-size: 13px;
+                                                padding: 0px 5px;
+                                                border: 1px solid rgb(224, 224, 224);
+                                                margin: 5px 0px 0px 0px;
+                                            }
+
+                                        }
+
+                                        .logo2 {
+                                            background-color: blue;
+
+                                            border-radius: 25px;
+                                            display: flex;
+                                            align-self: flex-start;
+                                            justify-content: center;
+                                            height: 50px;
+                                            width: 50px;
+                                            box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                            
+
+                                            // padding-right: 10px;
+
+
+                                            svg {
+                                                max-height: 35px;
+                                                align-self: center;
+                                                
+
+                                            }
+                                        }
+
+                                        .bg-o{
+                                            background-color: #e38146;
+                                        }
+
+                                        .bg-p{
+                                            background-color: #ff0077;
+                                        }
+                                        .bg-b{
+                                            background-color: #4660f9;
+                                        }
+                                    }
+                                }
+                                
+                                
+
+                                
+                            }
+
+                            .view-all{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                align-items: center;
+                                font-size: 14px;
+                                color: $color-blue;
+                                cursor: pointer;
+                                padding: 50px 0px;
+
+                                i{
+                                    margin-left: 7px;
+                                    
+                                }
+                            }
+                        }
+
+                        
+                    }.tool{
+                            max-width: 1020px;
+                            margin: auto;
+
+                        .tool-container{
+                            margin: 60px 0px 120px 0px;
+                            width: 100%;
+                            
+                            
+                            
+                            padding: 50px 40px;
+                            background-color: #fff;
+                            box-shadow: 0 12px 28px rgba(140,149,159,0.3);
+                            
+                            display: flex;
+                            flex-direction: column;
+                            
+                            
+                            
+
+                            .tool1{
+                                display: flex;
+                                flex-direction: column;
+                                
+                                font-size: 16px;
+                                text-align: center;
+                                
+                                img{
+                                    padding: 10px 10px;
+                                    height: 80px;
+                                }
+
+                            }
+
+                            .tool2{
+                                display: flex;
+                                flex-direction: column;
+                                font-size: 14px;
+                                padding: 0px 10px;
+                                color: gray;
+                                text-align: center;
+                                padding: 13px 0px;
+
+                                .tit{
+                                    padding-bottom: 3px;
+                                    cursor: pointer;
+                                    color: $color-blue;
+                                }
+
+                            }
+                        }
+                            
+                        }
+                }
+
+                
+
+            }
+        }
+
+        
+
+        footer{
+            background-color: $color-black;
+
+            .footer-links{
+                margin: 0 auto;
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: $color-link;
+                font-size: $text-1;
+                padding: 40px 0px;
+                border-top: 1px solid rgb(63, 63, 63);
+
+                li{
+                    padding: 5px 0px;
+                    cursor: pointer;
+                    &:hover{
+                        text-decoration: underline $color-link;
+                    }
+                }
+
+                img{
+                    margin: 20px 0px;
+                }
+
+                li:nth-child(1){
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 750px){
+    body{
+        
+
+        header {
+            z-index: 100;
+            i {
+                cursor: pointer;
+            }
+
+            background-color: $color-secondary;
+            width: 100%;
+            height: 62px;
+
+
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 100%;
+                width: 95%;
+                margin: 0 auto;
+                font-size: $text-2;
+
+
+
+
+                .primary-header {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+
+                    input {
+                        margin: 0px 10px 0px 15px;
+                        background-color: $color-black;
+                        border: none;
+                        border: 1px solid $color-border;
+                        border-radius: 6px;
+                        padding: 5px 5px 5px 10px;
+                        width: 240px;
+
+                        color: $color-grey;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        color: #fff;
+
+                        .responsive-link{
+                            display: block;
+                        }
+                        .responsive-link-2{
+                            display: none;
+                        }
+
+                        li {
+                            padding: 0px 10px;
+                            cursor: pointer;
+
+                            &:hover {
+                                color: $color-grey;
+                            }
+                        }
+                    }
+                }
+
+                .secondary-header {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+                        i {
+                            &:hover {
+                                color: #7a7a7a;
+                            }
+                        }
+
+                        img {
+                            height: 20px;
+                            width: 20px;
+                            border-radius: 25px;
+                        }
+
+                        li {
+                            color: $color-grey;
+                            padding: 0px 10px;
+                        }
+                    }
+                }
+
+                .header-responsive {
+
+
+                    display: none;
+                }
+            }
+
+            .header-group {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                position: relative;
+
+                i {
+                    padding: 0px 3px;
+                    font-size: 12px;
+                }
+
+                .secondary-hover{
+                    display: none;
+                    
+                    flex-direction: column;
+                    position: absolute;
+                    align-items: flex-start;
+                    background-color: $color-black;
+                    top: 18px;
+                    right: -10px;
+                    padding: 10px;
+                    border-radius: 6px;
+                    border: 1px solid rgb(58, 58, 58);
+                    .align{
+                        text-align: center;
+                    }
+
+                    li{
+                        padding: 4px 16px 6px 10px;
+                        font-size: $text-2;
+                        width: 100%;
+                        cursor: pointer;
+
+                        
+                        a{
+                             color: $color-grey;
+
+                            
+                        }
+                        &:hover{
+                            color: #fff;
+                            background-color: $color-link;
+                        }
+                        
+
+
+                        
+                    }
+                    
+
+                    input {
+                        background-color: $color-border;
+                        border: 1px solid $color-border;
+                        border-radius: 6px;
+                        padding: 7px 5px 7px 5px;
+                        color: $color-grey;
+                        margin-top: 5px;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    .border{
+                        border-bottom: 1px solid rgb(58, 58, 58);
+                    }
+
+                    li ul{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        align-items: flex-start;
+                        
+                    }
+                }
+
+                &:hover{
+                        .secondary-hover{
+                            display: flex;
+                        }
+                    
+                }
+            }
+        }
+
+        .main {
+            
+
+            .container {
+                // justify-content: center;
+                display: flex;
+                flex-direction: column;
+
+                .marketplace-header{
+                    padding: 0px 40px;
+                    
+                    
+                    background-color: #fff;
+
+                    .marketplace-header-container{
+                        // position: relative;
+                        max-width: 1020px;
+                        margin: auto;
+                        // background-color: red;
+                        
+
+                        .marketplace-header-left{
+                            position: relative;
+                            padding: 80px 0px;
+
+                            h1{
+                                font-size: 26px;
+                                line-height: 1;
+                            }
+                            p{
+                                font-size: 20px;
+                                color: #57606a;
+                                margin-bottom: 24px;
+                                padding-top: 10px;
+                            }
+                            a{
+                                padding: 9px 14px;
+                                background-color: #fff;
+                                color: black;
+                                border-radius: 6px;
+                                border: 1px solid rgb(214, 214, 214);
+                            }
+                            img{
+                                position: absolute;
+                                right: 0;
+                                width: 700px;
+                                bottom: 0px;
+                            }
+
+                            
+                        }
+
+                            
+
+                        
+                    }
+                }
+
+
+                .marketplace-content{
+                    background-color: #f6f8fa;
+                    padding-top: 50px;
+                    padding: 0px 40px;
+
+                    
+                    .content-main{
+                        max-width: 1020px;
+                        margin: auto;
+                        display: flex;
+                        flex-direction: row;
+                        
+                        .sidebar{
+                           display: none;
+                        }
+
+                        .marketplace-main{
+                            // background-color: blue;
+                            
+                            display: flex;
+                            flex-direction: column;
+
+                            .title{
+                                font-size: 20px;
+                                padding-top: 20px;
+                            }
+                            
+
+                            .inputs{
+                                
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                
+                                font-size: 14px;
+                                color: gray;
+                                input{
+                                    align-self: center;
+                                 padding: 10px;
+                                 width: 70%;
+                                 border-radius: 6px;
+                                 border: 1px solid rgb(194, 194, 194);
+                                 font-size: 14px;
+                                 z-index: 10;
+                                 box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                }
+                                a{
+                                    align-self: center;
+                                    padding: 12px;
+                                    width: 30%;
+                                    text-align: center;
+                                    border-radius: 6px;
+                                    background-color: #fff;
+                                    border: 1px solid rgb(194, 194, 194);
+                                    z-index: 10;
+                                    box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                    margin-top: 20px;
+                                    
+                                }
+
+                            }
+
+                            .apps {
+                                display: flex;
+
+                                flex-direction: row;
+
+                                flex-wrap: wrap;
+
+                                justify-content: space-between;
+
+                                .app-row {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    
+
+                                    .app {
+                                        // background-color: blue;
+                                        display: flex;
+                                        flex-direction: row;
+                                        width: 48%;
+                                        padding-top: 30px;
+
+                                        
+                                    
+
+                                        .logo {
+                                            background-color: #fff;
+
+                                            border-radius: 25px;
+                                            display: flex;
+                                            align-self: flex-start;
+                                            justify-content: center;
+                                            height: 50px;
+                                            width: 50px;
+                                            box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                            
+
+                                            // padding-right: 10px;
+
+
+                                            img {
+                                                max-height: 35px;
+                                                align-self: center;
+                                                
+
+                                            }
+
+
+                                            
+                                        }
+
+                                        
+
+                                        .app-info {
+                                            display: flex;
+                                            flex-direction: column;
+                                            flex: 4;
+                                            padding-left: 15px ;
+
+                                            span{
+                                                font-size: 12px;
+                                                padding-top: 4px;
+                                                color: rgb(42, 42, 42);
+                                            }
+
+
+
+                                            h2 {
+                                                font-size: 16px;
+                                                color: $color-blue;
+                                                padding-bottom: 2px;
+                                            }
+
+                                            p {
+                                                font-size: $text-2;
+                                                color: #57606a;
+                                                word-break: break-word;
+
+                                            }
+
+                                            a {
+                                                align-self: flex-start;
+                                                border-radius: 6px;
+                                                font-size: 13px;
+                                                padding: 0px 5px;
+                                                border: 1px solid rgb(224, 224, 224);
+                                                margin: 5px 0px 0px 0px;
+                                            }
+
+                                        }
+
+                                        .logo2 {
+                                            background-color: blue;
+
+                                            border-radius: 25px;
+                                            display: flex;
+                                            align-self: flex-start;
+                                            justify-content: center;
+                                            height: 50px;
+                                            width: 50px;
+                                            box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                            
+
+                                            // padding-right: 10px;
+
+
+                                            svg {
+                                                max-height: 35px;
+                                                align-self: center;
+                                                
+
+                                            }
+                                        }
+
+                                        .bg-o{
+                                            background-color: #e38146;
+                                        }
+
+                                        .bg-p{
+                                            background-color: #ff0077;
+                                        }
+                                        .bg-b{
+                                            background-color: #4660f9;
+                                        }
+                                    }
+                                }
+                                
+                                
+
+                                
+                            }
+
+                            .view-all{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                align-items: center;
+                                font-size: 14px;
+                                color: $color-blue;
+                                cursor: pointer;
+                                padding: 50px 0px;
+
+                                i{
+                                    margin-left: 7px;
+                                    
+                                }
+                            }
+                        }
+
+                        
+                    }.tool{
+                            max-width: 1020px;
+                            margin: auto;
+
+                        .tool-container{
+                            margin: 60px 0px 120px 0px;
+                            width: 100%;
+                            
+                            
+                            
+                            padding: 50px 40px;
+                            background-color: #fff;
+                            box-shadow: 0 12px 28px rgba(140,149,159,0.3);
+                            
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            
+                            
+
+                            .tool1{
+                                display: flex;
+                                flex-direction: row;
+
+                                font-size: 16px;
+                                
+                                img{
+                                    padding: 0px 10px;
+                                }
+
+                            }
+
+                            .tool2{
+                                display: flex;
+                                flex-direction: column;
+                                font-size: 14px;
+                                padding: 0px 10px;
+                                color: gray;
+
+                                .tit{
+                                    padding-bottom: 3px;
+                                    cursor: pointer;
+                                    color: $color-blue;
+                                }
+
+                            }
+                        }
+                            
+                        }
+                }
+
+                
+
+            }
+        }
+
+
+        footer{
+            background-color: $color-black;
+
+            .footer-links{
+                margin: 0 auto;
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: $color-link;
+                font-size: $text-1;
+                padding: 40px 0px;
+                border-top: 1px solid rgb(63, 63, 63);
+
+                li{
+                    padding: 5px 0px;
+                    cursor: pointer;
+                    &:hover{
+                        text-decoration: underline $color-link;
+                    }
+                }
+
+                img{
+                    margin: 20px 0px;
+                }
+
+                li:nth-child(1){
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+
+        // background-color: $color-black;
+        header {
+            z-index: 100;
+            i {
+                cursor: pointer;
+            }
+
+            background-color: $color-secondary;
+            width: 100%;
+            height: 62px;
+
+
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 100%;
+                width: 95%;
+                margin: 0 auto;
+                font-size: $text-2;
+                z-index: 100;
+
+
+
+
+
+                .primary-header {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    z-index: 100;
+
+
+
+                    input {
+                        margin: 0px 10px 0px 15px;
+                        background-color: $color-black;
+                        border: none;
+                        border: 1px solid $color-border;
+                        border-radius: 6px;
+                        padding: 5px 5px 5px 10px;
+                        width: 240px;
+
+
+                        color: $color-grey;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        color: #fff;
+
+                        .responsive-link{
+                            display: none;
+                        }
+                        .responsive-link-2{
+                            display: block;
+                        }
+
+                        li {
+                            padding: 0px 10px;
+                            cursor: pointer;
+
+                            &:hover {
+                                color: $color-grey;
+                            }
+                        }
+                    }
+                }
+
+                .secondary-header {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+                        i {
+                            &:hover {
+                                color: #7a7a7a;
+                            }
+                        }
+
+                        img {
+                            height: 20px;
+                            width: 20px;
+                            border-radius: 25px;
+                        }
+
+                        li {
+                            color: $color-grey;
+                            padding: 0px 10px;
+                        }
+                    }
+                }
+
+                .header-responsive {
+
+
+                    display: none;
+                }
+            }
+
+            .header-group {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                position: relative;
+
+                i {
+                    padding: 0px 3px;
+                    font-size: 12px;
+                }
+
+                .secondary-hover {
+                    display: none;
+
+                    flex-direction: column;
+                    position: absolute;
+                    align-items: flex-start;
+                    background-color: $color-black;
+                    top: 18px;
+                    right: -10px;
+                    padding: 10px;
+                    border-radius: 6px;
+                    border: 1px solid rgb(58, 58, 58);
+
+                    .align {
+                        text-align: center;
+                    }
+
+                    li {
+                        padding: 4px 16px 6px 10px;
+                        font-size: $text-2;
+                        width: 100%;
+                        cursor: pointer;
+
+
+                        a {
+                            color: $color-grey;
+
+
+                        }
+
+                        &:hover {
+                            color: #fff;
+                            background-color: $color-link;
+                        }
+
+
+
+
+                    }
+
+
+                    input {
+                        background-color: $color-border;
+                        border: 1px solid $color-border;
+                        border-radius: 6px;
+                        padding: 7px 5px 7px 5px;
+                        color: $color-grey;
+                        margin-top: 5px;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    .border {
+                        border-bottom: 1px solid rgb(58, 58, 58);
+                    }
+
+                    li ul {
+                        display: flex;
+                        flex-direction: column;
+
+                        align-items: flex-start;
+
+                    }
+                }
+
+                &:hover {
+                    .secondary-hover {
+                        display: flex;
+                    }
+
+                }
+            }
+        }
+
+        .main {
+            
+
+            .container {
+                // justify-content: center;
+                display: flex;
+                flex-direction: column;
+
+                .marketplace-header{
+                    
+                    
+                    background-color: #fff;
+
+                    .marketplace-header-container{
+                        // position: relative;
+                        max-width: 1020px;
+                        margin: auto;
+                        // background-color: red;
+                        
+
+                        .marketplace-header-left{
+                            position: relative;
+                            padding: 96px 0px;
+
+                            h1{
+                                font-size: 32px;
+                                line-height: 1;
+                            }
+                            p{
+                                font-size: 24px;
+                                color: #57606a;
+                                margin-bottom: 24px;
+                                padding-top: 10px;
+                            }
+                            a{
+                                padding: 9px 14px;
+                                background-color: #fff;
+                                color: black;
+                                border-radius: 6px;
+                                border: 1px solid rgb(214, 214, 214);
+                            }
+                            img{
+                                position: absolute;
+                                right: 0;
+                                bottom: -90px;
+                                width: 900px;
+                            }
+
+                            
+                        }
+
+                            
+
+                        
+                    }
+                }
+
+
+                .marketplace-content{
+                    background-color: #f6f8fa;
+                    padding-top: 50px;
+
+                    
+                    .content-main{
+                        max-width: 1020px;
+                        margin: auto;
+                        display: flex;
+                        flex-direction: row;
+                        
+                        .sidebar{
+                            // background-color: red;
+                            flex: 1;
+                            display: flex;
+                            flex-direction: column;
+                            padding: 8px 32px 128px 12px;
+                            h4{
+                                margin-bottom: 8px;
+                                margin-top: 30px;
+                                font-size: 18px;
+                            }
+                            li{
+                                padding: 6px 0px 6px 8px;
+                                font-size: 14px;
+                                color: gray;
+                                cursor: pointer;
+
+                                &:hover{
+                                    color: $color-blue;
+                                }
+                            }
+                        }
+
+                        .marketplace-main{
+                            // background-color: blue;
+                            flex: 3;
+                            display: flex;
+                            flex-direction: column;
+
+                            .title{
+                                font-size: 20px;
+                                padding-top: 20px;
+                            }
+                            
+
+                            .inputs{
+                                
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                font-size: 14px;
+                                color: gray;
+                                input{
+                                 padding: 10px;
+                                 width: 70%;
+                                 border-radius: 6px;
+                                 border: 1px solid rgb(194, 194, 194);
+                                 font-size: 14px;
+                                 z-index: 10;
+                                 box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                }
+                                a{
+                                    padding: 12px;
+                                    width: auto;
+                                    margin-top: 0px;
+                                    border-radius: 6px;
+                                    background-color: #fff;
+                                    border: 1px solid rgb(194, 194, 194);
+                                    z-index: 10;
+                                    box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                    
+                                }
+
+                            }
+
+                            .apps {
+                                display: flex;
+
+                                flex-direction: row;
+
+                                flex-wrap: wrap;
+
+                                justify-content: space-between;
+
+                                .app-row {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    
+
+                                    .app {
+                                        // background-color: blue;
+                                        display: flex;
+                                        flex-direction: row;
+                                        width: 48%;
+                                        padding-top: 30px;
+
+                                        
+                                    
+
+                                        .logo {
+                                            background-color: #fff;
+
+                                            border-radius: 25px;
+                                            display: flex;
+                                            align-self: flex-start;
+                                            justify-content: center;
+                                            height: 50px;
+                                            width: 50px;
+                                            box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                            
+
+                                            // padding-right: 10px;
+
+
+                                            img {
+                                                max-height: 35px;
+                                                align-self: center;
+                                                
+
+                                            }
+
+
+                                            
+                                        }
+
+                                        
+
+                                        .app-info {
+                                            display: flex;
+                                            flex-direction: column;
+                                            flex: 4;
+                                            padding-left: 15px ;
+
+                                            span{
+                                                font-size: 12px;
+                                                padding-top: 4px;
+                                                color: rgb(42, 42, 42);
+                                            }
+
+
+
+                                            h2 {
+                                                font-size: 16px;
+                                                color: $color-blue;
+                                                padding-bottom: 2px;
+                                            }
+
+                                            p {
+                                                font-size: $text-2;
+                                                color: #57606a;
+                                                word-break: break-word;
+
+                                            }
+
+                                            a {
+                                                align-self: flex-start;
+                                                border-radius: 6px;
+                                                font-size: 13px;
+                                                padding: 0px 5px;
+                                                border: 1px solid rgb(224, 224, 224);
+                                                margin: 5px 0px 0px 0px;
+                                            }
+
+                                        }
+
+                                        .logo2 {
+                                            background-color: blue;
+
+                                            border-radius: 25px;
+                                            display: flex;
+                                            align-self: flex-start;
+                                            justify-content: center;
+                                            height: 50px;
+                                            width: 50px;
+                                            box-shadow: 0 3px 6px rgba(140,149,159,0.15);
+                                            
+
+                                            // padding-right: 10px;
+
+
+                                            svg {
+                                                max-height: 35px;
+                                                align-self: center;
+                                                
+
+                                            }
+                                        }
+
+                                        .bg-o{
+                                            background-color: #e38146;
+                                        }
+
+                                        .bg-p{
+                                            background-color: #ff0077;
+                                        }
+                                        .bg-b{
+                                            background-color: #4660f9;
+                                        }
+                                    }
+                                }
+                                
+                                
+
+                                
+                            }
+
+                            .view-all{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                align-items: center;
+                                font-size: 14px;
+                                color: $color-blue;
+                                cursor: pointer;
+                                padding: 50px 0px;
+
+                                i{
+                                    margin-left: 7px;
+                                    
+                                }
+                            }
+                        }
+
+                        
+                    }.tool{
+                            max-width: 1020px;
+                            margin: auto;
+
+                        .tool-container{
+                            margin: 60px 0px 120px 0px;
+                            width: 100%;
+                            
+                            
+                            
+                            padding: 50px 40px;
+                            background-color: #fff;
+                            box-shadow: 0 12px 28px rgba(140,149,159,0.3);
+                            
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            
+                            
+
+                            .tool1{
+                                display: flex;
+                                flex-direction: row;
+
+                                font-size: 16px;
+                                
+                                img{
+                                    padding: 0px 10px;
+                                }
+
+                            }
+
+                            .tool2{
+                                display: flex;
+                                flex-direction: column;
+                                font-size: 14px;
+                                padding: 0px 10px;
+                                color: gray;
+
+                                .tit{
+                                    padding-bottom: 3px;
+                                    cursor: pointer;
+                                    color: $color-blue;
+                                }
+
+                            }
+                        }
+                            
+                        }
+                }
+
+                
+
+            }
+        }
+
+        footer {
+            background-color: $color-black;
+
+            .footer-links {
+                margin: 0 auto;
+                width: 90%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color: $color-link;
+                font-size: $text-1;
+                padding: 40px 0px;
+                border-top: 1px solid rgb(63, 63, 63);
+
+                li {
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline $color-link;
+                    }
+                }
+
+                li:nth-child(1) {
+                    color: gray;
+                }
+            }
+        }
+    }
+
+}
