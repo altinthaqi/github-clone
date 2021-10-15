@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Profile - Altin</title>
+    <title>Pull Requests - Altin</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/pulls.css">
     <link rel="shortcut icon" type="image/png" href="../img/logo.png">
 
 </head>
@@ -77,90 +77,48 @@
     <section class="main">
         <div class="container">
 
-            <div class="links">
-                <div class="space-links"></div>
-                <div class="profile-links">
-                    <div class="profile-link">
-                        <i class="fas fa-book-open"></i>
-                        <a href="profile.html">Overview</a>
+
+            <div class="content-title">
+                <div class="buttons">
+                    <button>Created</button>
+                    <button>Assigned</button>
+                    <button>Mentioned</button>
+                </div>
+
+                <input type="text" placeholder="is:open is:issue author:altinthaqi archived:false  ">
+
+            </div>
+
+            <div class="content-box">
+                <div class="box-head">
+                    <div class="head-left">
+                        <div class="left-1"><i class="fas fa-tasks"></i> 0 Open</div>
+                        <div class="left-2"><i class="fas fa-check"></i> 0 Closed</div>
                     </div>
-                    <div class="profile-link">
-                        <i class="fas fa-book"></i>
-                        <a href="repositories.html">Repositories</a>
-                        <div class="repository-number">15</div>
+                    <div class="head-right">
+                        <div class="right-el">
+                            Visibility <i class="fas fa-caret-down"></i>
+                        </div>
+                        <div class="right-el">
+                            Organization <i class="fas fa-caret-down"></i>
+                        </div>
+                        <div class="right-el">
+                            Sort <i class="fas fa-caret-down"></i>
+                        </div>
                     </div>
-                    <div class="profile-link">
-                        <i class="fas fa-chart-bar"></i>
-                        <a href="projects.html" class="profile-active">Projects</a>
-                    </div>
-                    <div class="profile-link">
-                        <i class="fas fa-cube"></i>
-                        <a>Packages</a>
-                    </div>
+                </div>
+                <div class="box-body">
+                    <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-issue-opened blankslate-icon">
+                        <path fill-rule="evenodd" d="M2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0zM12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zm0 13a2 2 0 100-4 2 2 0 000 4z"></path>
+                    </svg>
+                    <h1>No results matched your search.</h1>
+                    
+                    <p>You could search <span> all of GitHub </span> or try an <span> advanced search </span>.</p>
                 </div>
             </div>
 
-            <div class="main-content">
+            <p class="tip"> <span class="white"> ProTip! </span>Exclude everything labeled bug with <span class="blue"> -label:bug</span>.</p>
 
-                <div class="content-left">
-                    <img height="260" width="260" src="../img/people/altin.jpg" alt="">
-                    <h1 class="left-title">Altin Thaçi</h1>
-                    <h2 class="left-undertitle">altinthaqi</h2>
-
-                    <h3 class="left-bio">Frontend / JavaScript Developer</h3>
-
-                    <button>Edit Profile</button>
-
-                    <div class="left-stats">
-                        <div class="stat">
-                            <i class="fas fa-user-friends"></i>
-                            <span><span>5</span>followers ·</span>
-                        </div>
-
-                        <div class="stat">
-                            <span><span>3</span>following ·</span>
-                        </div>
-
-                        <div class="stat">
-                            <i class="far fa-star"></i>
-                            <span><span>5</span></span>
-                        </div>
-                    </div>
-
-                    <div class="left-location">
-                        <i class="fas fa-thumbtack"></i>
-                        <p>Kosovo</p>
-                    </div>
-                    <h2 class="highlight">Highlights</h2>
-                    <div class="left-highlights">
-                        <i class="far fa-star"></i>
-                        <div class="pro">PRO</div>
-                    </div>
-
-                </div>
-
-                <div class="content-right">
-                    <div class="content-title">
-                        <input type="text" placeholder="is:open sort:created-desc">
-                        <button>New Project</button>
-                    </div>
-
-                    <div class="content-box">
-                        <div class="box-head">
-                            <div class="head-left">
-                                <div class="left-1"><i class="fas fa-tasks"></i> 0 Open</div>
-                                <div class="left-2"><i class="fas fa-check"></i> 0 Closed</div>
-                            </div>
-                            <div class="head-right">Sort <i class="fas fa-caret-down"></i></div>
-                        </div>
-                        <div class="box-body">
-                            <h1>You don't have any projects yet.</h1>
-                            <button>New Project</button>
-                            <p>Learn More</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 

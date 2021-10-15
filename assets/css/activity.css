@@ -407,7 +407,7 @@
     height: 100%;
     width: 95%;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 12px;
   }
   body header nav .primary-header {
     display: -webkit-box;
@@ -428,7 +428,7 @@
     border: 1px solid #21262d;
     border-radius: 6px;
     padding: 5px 5px 5px 10px;
-    width: 240px;
+    width: 180px;
     color: #C9D1D9;
   }
   body header nav .primary-header input:focus {
