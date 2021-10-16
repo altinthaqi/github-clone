@@ -15,7 +15,7 @@
 @media (max-width: 749px) {
   body header {
     z-index: 100;
-    background-color: #161b22;
+    background-color: #24292f;
     width: 100%;
     height: 62px;
   }
@@ -430,7 +430,7 @@
 @media (min-width: 750px) {
   body header {
     z-index: 100;
-    background-color: #161b22;
+    background-color: #24292f;
     width: 100%;
     height: 62px;
   }
@@ -919,7 +919,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    font-size: 16px;
+    font-size: 12px;
   }
   body .main .container .marketplace-content .tool .tool-container .tool1 img {
     padding: 0px 10px;
@@ -984,7 +984,7 @@
 @media (min-width: 1000px) {
   body header {
     z-index: 100;
-    background-color: #161b22;
+    background-color: #24292f;
     width: 100%;
     height: 62px;
   }
