@@ -541,7 +541,10 @@
     padding: 0px 10px;
     cursor: pointer;
   }
-  body header nav .primary-header ul li:hover {
+  body header nav .primary-header ul li a {
+    color: #fff;
+  }
+  body header nav .primary-header ul li a:hover {
     color: #C9D1D9;
   }
   body header nav .secondary-header {
@@ -1215,7 +1218,10 @@
     padding: 0px 10px;
     cursor: pointer;
   }
-  body header nav .primary-header ul li:hover {
+  body header nav .primary-header ul li a {
+    color: #fff;
+  }
+  body header nav .primary-header ul li a:hover {
     color: #C9D1D9;
   }
   body header nav .secondary-header {

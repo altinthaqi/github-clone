@@ -47,6 +47,564 @@
             }
         }
 
+        .main{
+            background-color: $color-black;
+
+            .container{
+                display: flex;
+                flex-direction: column;
+                
+                margin: 0px auto;
+                padding: 0px 20px;
+                
+                
+                .links{
+                    // background-color: red;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-between;
+                    
+                    
+
+                    
+                    
+                    .profile-links{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        margin-top: 10px;
+                        padding: 10px 0px;
+                        height: 100%;
+                        
+                        
+                        
+                        line-height: 30px;
+    
+                        .profile-link{
+                            
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 0px 10px;
+                            line-height: 30px;
+
+                            .profile-active{
+                                text-decoration: underline 3px solid $color-blue;
+                                text-underline-offset: 16px;
+    
+                                
+                            }
+
+                            a{
+                                font-size: 12px;
+                            color: $color-grey;
+                            cursor: pointer;
+                            
+                            }
+    
+                        }
+                    }
+
+                    .get-upd{
+                        display: none;
+                        
+                        
+                        
+                    }
+    
+                }
+
+                .main-content{
+                    
+               
+                    display: flex;
+                    flex-direction: column;
+                    
+                    .content-left {
+                        
+                        
+                        
+
+                        .left-container {
+                            display: flex;
+                            flex-direction: column;
+                            color: $color-grey;
+                            
+                            width: 100%;
+                            margin-top: 20px;
+                            
+                            
+
+                            .box1 {
+                                width: 100%;
+                                padding: 8px;
+                                display: flex;
+                                flex-direction: column;
+                                text-align: start;
+                                border: 1px solid #2e2e2e;
+                                border-radius: 6px 6px 0px 0px;
+
+                                img {
+                                    border-radius: 50%;
+                                    cursor: pointer;
+                                    margin-bottom: 12px;
+                                    align-self: flex-start;
+                                    height: 95px;
+                                    width: 95px;
+
+                                }
+                                .left-title {
+
+                                    font-size: $text-5;
+                                }
+
+                                .left-undertitle {
+                                    font-size: $text-3;
+                                    padding-bottom: 10px;
+                                    color: gray;
+                                }
+                            }
+
+                            .box2{
+                                display: flex;
+                                flex-direction: column;
+                                border: 1px solid #2e2e2e;
+                                border-radius: 0px 0px 0px 0px;
+                                padding: 10px;
+                                
+                                
+
+                                h2{
+                                    font-size: 16px;
+                                    padding: 10px 0px 20px 10px;
+                                    color: $color-link;
+                                    cursor: pointer;
+
+                                    &:hover{
+                                        text-decoration: underline $color-link;
+                                    }
+                                }
+
+                                .topic{
+                                    display: flex;
+                                    flex-direction: row;
+                                    padding: 13px;
+                                    font-size: 16px;
+
+                                    p{
+                                        cursor: pointer;
+                                        color: $color-link;
+                                        &:hover{
+                                            text-decoration: underline $color-link;
+                                        }
+                                    }
+
+                                    img{
+                                        height: 24px;
+                                        width: 24px;
+                                        margin: 0px 10px 0px 0px;
+                                    }
+                                }
+                            }
+
+                            .box3{
+                                h2{
+                                    font-size: 16px;
+                                    padding: 10px 0px 20px 10px;
+                                    color: $color-link;
+                                    cursor: pointer;
+                                    border: 1px solid #2e2e2e;
+                                border-radius: 0px 0px 6px 6px;
+
+                                    &:hover{
+                                        text-decoration: underline $color-link;
+                                    }
+
+                                }
+                            }
+
+
+                        }
+
+
+                    }
+
+                    .content-right{
+                       
+                        
+                        
+                        
+                        // background-color: #b19898;
+                        display: flex;
+                        flex-direction: column;
+                        // padding: 0px 16px;
+
+                        .right-1{
+                            
+
+
+                            .right-1-container{
+                                color: #8b949e;
+                                display: flex;
+                                flex-direction: column;
+                                
+
+                                .right-title{
+                                    color: #8b949e;
+                                    font-size: 20px;
+                                    padding-top: 20px;
+                                }
+
+                                .box{
+                                    display: flex;
+                                    flex-direction: column;
+                                    border: 1px solid #2e2e2e;
+                                    border-radius: 6px;
+                                    
+                                    margin: 30px 0px;
+                                    
+                                   
+                                    
+
+
+
+                                    .info{
+                                        display: flex;
+                                        flex-direction: column;
+                                        padding: 0px 20px;
+                                        background-color: $color-secondary;
+                                        justify-content: space-between;
+                                        border-bottom: 1px solid #2e2e2e;
+                                       
+                                        
+
+                                        .based{
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                            font-size: 12px;
+                                            padding: 15px 0px;
+
+                                            i{
+                                                padding-right: 10px;
+                                            }
+
+                                        }
+                                        .name{
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-between;
+                                            padding-bottom: 20px;
+                                            .left{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: center;
+                                                i{
+                                                    font-size: 12px;
+                                                    padding-right: 10px;
+                                                }
+                                                
+                                                h2{
+                                                    font-size: 20px;
+                                                    color: $color-link;
+                                                    cursor: pointer;
+
+                                                    &:hover{
+                                                        text-decoration: underline;
+                                                    }
+                                                }
+
+
+                                            }
+                                            .right{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: center;
+                                                
+                                                
+                                               
+
+                                                .star{
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    align-items: center;
+                                                    padding: 3px 10px;
+                                                    border: 1px solid #2e2e2e;
+                                                    background-color: $color-black;
+                                                    border-radius: 6px 0px 0px 6px;
+                                                    font-size: 13px;
+                                                    &:hover{
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    
+
+                                                    i{
+                                                        padding-right: 5px;
+                                                        font-size: 12px;
+                                                    }
+                                                }
+
+                                                .nrthingy{
+                                                    border: 1px solid #2e2e2e;
+                                                    background-color: $color-black;
+                                                    border-radius: 0px 6px 6px 0px;
+                                                    padding: 3px 10px;
+                                                    cursor: pointer;
+                                                    font-size: 13px;
+
+                                                    &:hover{
+                                                        color: $color-link;
+                                                    }
+                                                }
+
+                                                
+                                                
+
+                                            }
+                                       
+                                        }
+                                            .git{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-content: flex-end;
+                                                font-size: 12px;
+
+                                                .git1{
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    align-items: center;
+                                                    padding-right: 20px;
+                                                    cursor: pointer;
+                                                    
+
+                                                    i{
+                                                        font-size: 12px;
+                                                        padding-right: 10px;
+                                                    }
+                                                }
+
+                                                .active-git{
+                                                    background-color: $color-black;
+                                                    color: rgb(199, 199, 199);
+                                                    padding: 4px 6px;
+                                                    border: 1px solid #2e2e2e;
+                                                    border-radius: 6px 6px 0px 0px;
+                                                    margin-right: 15px;
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .tags{
+                                            display: flex;
+                                            flex-direction: column;
+                                            padding: 0px 20px;
+
+                                            .paragraph{
+                                                padding: 15px 0px;
+                                                font-size: 14px;
+                                            }
+
+                                            .tag{
+                                                display: flex;
+                                                flex-direction: row;
+                                                flex-wrap: wrap;
+                                                max-width: 100%;
+
+                                                a{
+                                                    color: $color-link;
+                                                    background-color: rgba(56,139,253,0.15);
+                                                    border-radius: 6px;
+                                                    margin-right: 4px;
+                                                    margin-top: 6px;
+                                                    padding: 0px 10px;
+                                                    font-size: 13px;
+                
+                                                }
+                                                
+                                            }
+                                        }
+
+                                        .updated{
+                                            display: flex;
+                                            flex-direction: row;
+                                            padding: 20px 20px;
+                                            font-size: 12px;
+
+                                            p{
+                                                padding-right: 10px;
+                                            }
+                                        }
+
+                                       
+                                    
+                                }
+
+                                .ending{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+
+                                    img{
+                                        height: 101px;
+                                        width: 101px;
+                                    }
+                                    h2{
+                                        font-size: 24px;
+                                        color: #fff;
+                                        padding: 15px 0px;
+                                        text-align: center;
+                                    }
+                                    p{
+                                        color: gray;
+                                        
+                                    }
+                                    .get-upd{
+                                        color: $color-link;
+                                        cursor: pointer;
+                                        &:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+
+                        
+                    }
+
+                    .trending{
+                        flex: 1;
+                        margin-left: 20px;
+                        
+                        
+
+                        .trending-container{
+                            display: flex;
+                            flex-direction: column;
+                            border: 1px solid #2e2e2e;
+                            border-radius: 6px;
+                            margin-top: 30px;
+                            
+
+                            .trending-head{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                background-color: $color-secondary;
+                                color: rgb(184, 184, 184);
+                                font-size: 14px;
+                                padding: 20px;
+
+                                i{
+                                    padding-right: 15px;
+                                }
+
+                            }
+
+                            .trending-body{
+                                display: flex;
+                                flex-direction: column;
+
+                                .trending-row{
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    padding: 20px;
+                                    border-bottom: 1px solid #2e2e2e;
+
+                                    color: gray;
+                                    i{
+                                        padding-right: 5px;
+                                    }
+
+                                    
+
+                                    .name{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        p{
+                                            color: $color-link;
+                                            cursor: pointer;
+                                            font-size: 14px;
+
+                                            &:hover{
+                                                text-decoration: underline;
+                                            }
+                                        }
+
+                                    }
+                                    .star{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+
+                                    }
+                                }
+
+                                .trending-end{
+                                    padding: 10px 20px;
+                                    font-size: 12px;
+                                    color: $color-link;
+                                    cursor: pointer;
+
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        
+                        
+                    }
+
+                    
+                
+                
+            }
+            footer{
+                background-color: $color-black;
+    
+                .footer-links{
+                    margin: 0 auto;
+                    width: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: $color-link;
+                    font-size: $text-1;
+                    padding: 40px 0px;
+                    border-top: 1px solid rgb(63, 63, 63);
+    
+                    li{
+                        padding: 5px 0px;
+                        cursor: pointer;
+                        &:hover{
+                            text-decoration: underline $color-link;
+                        }
+                    }
+    
+                    img{
+                        margin: 20px 0px;
+                    }
+    
+                    li:nth-child(1){
+                        color: gray;
+                    }
+                }
+            }
+
+
+                
+            }            
+        }
+
         
     }
 }
@@ -113,8 +671,12 @@
                             padding: 0px 10px;
                             cursor: pointer;
 
-                            &:hover {
-                                color: $color-grey;
+                            a{
+                                color: #fff;
+
+                                &:hover {
+                                    color: $color-grey;
+                                }
                             }
                         }
                     }
@@ -241,6 +803,572 @@
             }
         }
 
+        .main{
+            background-color: $color-black;
+
+            .container{
+                display: flex;
+                flex-direction: column;
+                
+                margin: 0px auto;
+                padding: 0px 20px;
+                
+                
+                .links{
+                    // background-color: red;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-between;
+                    
+                    
+
+                    
+                    
+                    .profile-links{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        margin-top: 10px;
+                        padding: 10px 0px;
+                        height: 100%;
+                        
+                        
+                        
+                        line-height: 30px;
+    
+                        .profile-link{
+                            
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 0px 13px;
+                            line-height: 30px;
+
+                            .profile-active{
+                                text-decoration: underline 3px solid $color-blue;
+                                text-underline-offset: 16px;
+    
+                                
+                            }
+
+                            a{
+                                font-size: $text-2;
+                            color: $color-grey;
+                            cursor: pointer;
+                            }
+    
+                        }
+                    }
+
+                    .get-upd{
+                        align-self: flex-end;
+                        
+                        
+                        
+                        padding: 8px 10px;
+                        background-color: $color-secondary;
+                        border-radius: 6px;
+                        color: gray;
+                        
+                        
+                        
+                    }
+    
+                }
+
+                .main-content{
+                    
+               
+                    display: flex;
+                    flex-direction: column;
+                    
+                    .content-left {
+                        
+                        
+                        
+
+                        .left-container {
+                            display: flex;
+                            flex-direction: column;
+                            color: $color-grey;
+                            
+                            width: 100%;
+                            margin-top: 20px;
+                            
+                            
+
+                            .box1 {
+                                width: 100%;
+                                padding: 8px;
+                                display: flex;
+                                flex-direction: column;
+                                text-align: start;
+                                border: 1px solid #2e2e2e;
+                                border-radius: 6px 6px 0px 0px;
+
+                                img {
+                                    border-radius: 50%;
+                                    cursor: pointer;
+                                    margin-bottom: 12px;
+                                    align-self: flex-start;
+                                    height: 95px;
+                                    width: 95px;
+
+                                }
+                                .left-title {
+
+                                    font-size: $text-5;
+                                }
+
+                                .left-undertitle {
+                                    font-size: $text-3;
+                                    padding-bottom: 10px;
+                                    color: gray;
+                                }
+                            }
+
+                            .box2{
+                                display: flex;
+                                flex-direction: column;
+                                border: 1px solid #2e2e2e;
+                                border-radius: 0px 0px 0px 0px;
+                                padding: 10px;
+                                
+                                
+
+                                h2{
+                                    font-size: 16px;
+                                    padding: 10px 0px 20px 10px;
+                                    color: $color-link;
+                                    cursor: pointer;
+
+                                    &:hover{
+                                        text-decoration: underline $color-link;
+                                    }
+                                }
+
+                                .topic{
+                                    display: flex;
+                                    flex-direction: row;
+                                    padding: 13px;
+                                    font-size: 16px;
+
+                                    p{
+                                        cursor: pointer;
+                                        color: $color-link;
+                                        &:hover{
+                                            text-decoration: underline $color-link;
+                                        }
+                                    }
+
+                                    img{
+                                        height: 24px;
+                                        width: 24px;
+                                        margin: 0px 10px 0px 0px;
+                                    }
+                                }
+                            }
+
+                            .box3{
+                                h2{
+                                    font-size: 16px;
+                                    padding: 10px 0px 20px 10px;
+                                    color: $color-link;
+                                    cursor: pointer;
+                                    border: 1px solid #2e2e2e;
+                                border-radius: 0px 0px 6px 6px;
+
+                                    &:hover{
+                                        text-decoration: underline $color-link;
+                                    }
+
+                                }
+                            }
+
+
+                        }
+
+
+                    }
+
+                    .content-right{
+                       
+                        
+                        
+                        
+                        // background-color: #b19898;
+                        display: flex;
+                        flex-direction: row;
+                        // padding: 0px 16px;
+
+                        .right-1{
+                            
+
+
+                            .right-1-container{
+                                color: #8b949e;
+                                display: flex;
+                                flex-direction: column;
+                                
+
+                                .right-title{
+                                    color: #8b949e;
+                                    font-size: 20px;
+                                    padding-top: 20px;
+                                }
+
+                                .box{
+                                    display: flex;
+                                    flex-direction: column;
+                                    border: 1px solid #2e2e2e;
+                                    border-radius: 6px;
+                                    
+                                    margin: 30px 0px;
+                                    
+                                   
+                                    
+
+
+
+                                    .info{
+                                        display: flex;
+                                        flex-direction: column;
+                                        padding: 0px 20px;
+                                        background-color: $color-secondary;
+                                        justify-content: space-between;
+                                        border-bottom: 1px solid #2e2e2e;
+                                       
+                                        
+
+                                        .based{
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                            font-size: 12px;
+                                            padding: 15px 0px;
+
+                                            i{
+                                                padding-right: 10px;
+                                            }
+
+                                        }
+                                        .name{
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-between;
+                                            padding-bottom: 20px;
+                                            .left{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: center;
+                                                i{
+                                                    font-size: 12px;
+                                                    padding-right: 10px;
+                                                }
+                                                
+                                                h2{
+                                                    font-size: 20px;
+                                                    color: $color-link;
+                                                    cursor: pointer;
+
+                                                    &:hover{
+                                                        text-decoration: underline;
+                                                    }
+                                                }
+
+
+                                            }
+                                            .right{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: center;
+                                                
+                                                
+                                               
+
+                                                .star{
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    align-items: center;
+                                                    padding: 3px 10px;
+                                                    border: 1px solid #2e2e2e;
+                                                    background-color: $color-black;
+                                                    border-radius: 6px 0px 0px 6px;
+                                                    font-size: 13px;
+                                                    &:hover{
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    
+
+                                                    i{
+                                                        padding-right: 5px;
+                                                        font-size: 12px;
+                                                    }
+                                                }
+
+                                                .nrthingy{
+                                                    border: 1px solid #2e2e2e;
+                                                    background-color: $color-black;
+                                                    border-radius: 0px 6px 6px 0px;
+                                                    padding: 3px 10px;
+                                                    cursor: pointer;
+                                                    font-size: 13px;
+
+                                                    &:hover{
+                                                        color: $color-link;
+                                                    }
+                                                }
+
+                                                
+                                                
+
+                                            }
+                                       
+                                        }
+                                            .git{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-content: flex-end;
+                                                font-size: 12px;
+
+                                                .git1{
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    align-items: center;
+                                                    padding-right: 20px;
+                                                    cursor: pointer;
+                                                    
+
+                                                    i{
+                                                        font-size: 12px;
+                                                        padding-right: 10px;
+                                                    }
+                                                }
+
+                                                .active-git{
+                                                    background-color: $color-black;
+                                                    color: rgb(199, 199, 199);
+                                                    padding: 4px 6px;
+                                                    border: 1px solid #2e2e2e;
+                                                    border-radius: 6px 6px 0px 0px;
+                                                    margin-right: 15px;
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .tags{
+                                            display: flex;
+                                            flex-direction: column;
+                                            padding: 0px 20px;
+
+                                            .paragraph{
+                                                padding: 15px 0px;
+                                                font-size: 14px;
+                                            }
+
+                                            .tag{
+                                                display: flex;
+                                                flex-direction: row;
+                                                flex-wrap: wrap;
+                                                max-width: 100%;
+
+                                                a{
+                                                    color: $color-link;
+                                                    background-color: rgba(56,139,253,0.15);
+                                                    border-radius: 6px;
+                                                    margin-right: 4px;
+                                                    margin-top: 6px;
+                                                    padding: 0px 10px;
+                                                    font-size: 13px;
+                
+                                                }
+                                                
+                                            }
+                                        }
+
+                                        .updated{
+                                            display: flex;
+                                            flex-direction: row;
+                                            padding: 20px 20px;
+                                            font-size: 12px;
+
+                                            p{
+                                                padding-right: 10px;
+                                            }
+                                        }
+
+                                       
+                                    
+                                }
+
+                                .ending{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+
+                                    img{
+                                        height: 101px;
+                                        width: 101px;
+                                    }
+                                    h2{
+                                        font-size: 24px;
+                                        color: #fff;
+                                        padding: 15px 0px;
+                                        text-align: center;
+                                    }
+                                    p{
+                                        color: gray;
+                                        
+                                    }
+                                    .get-upd{
+                                        color: $color-link;
+                                        cursor: pointer;
+                                        &:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+
+                        
+                    }
+
+                    .trending{
+                        flex: 1;
+                        margin-left: 20px;
+                        
+                        
+
+                        .trending-container{
+                            display: flex;
+                            flex-direction: column;
+                            border: 1px solid #2e2e2e;
+                            border-radius: 6px;
+                            margin-top: 30px;
+                            
+
+                            .trending-head{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                background-color: $color-secondary;
+                                color: rgb(184, 184, 184);
+                                font-size: 14px;
+                                padding: 20px;
+
+                                i{
+                                    padding-right: 15px;
+                                }
+
+                            }
+
+                            .trending-body{
+                                display: flex;
+                                flex-direction: column;
+
+                                .trending-row{
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    padding: 20px;
+                                    border-bottom: 1px solid #2e2e2e;
+
+                                    color: gray;
+                                    i{
+                                        padding-right: 5px;
+                                    }
+
+                                    
+
+                                    .name{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        p{
+                                            color: $color-link;
+                                            cursor: pointer;
+                                            font-size: 14px;
+
+                                            &:hover{
+                                                text-decoration: underline;
+                                            }
+                                        }
+
+                                    }
+                                    .star{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+
+                                    }
+                                }
+
+                                .trending-end{
+                                    padding: 10px 20px;
+                                    font-size: 12px;
+                                    color: $color-link;
+                                    cursor: pointer;
+
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        
+                        
+                    }
+
+                    
+                
+                
+            }
+            footer{
+                background-color: $color-black;
+    
+                .footer-links{
+                    margin: 0 auto;
+                    width: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: $color-link;
+                    font-size: $text-1;
+                    padding: 80px 0px;
+                    
+    
+                    li{
+                        padding: 5px 0px;
+                        cursor: pointer;
+                        &:hover{
+                            text-decoration: underline $color-link;
+                        }
+                    }
+    
+                    img{
+                        margin: 20px 0px;
+                    }
+    
+                    li:nth-child(1){
+                        color: gray;
+                    }
+                }
+            }
+
+
+                
+            }            
+        }
+
+        
+
         
     }
 }
@@ -305,12 +1433,18 @@
                         }
 
                         li {
+                            a{
+                                color: #fff;
+
+                                &:hover {
+                                    color: $color-grey;
+                                }
+                            }
+                        
                             padding: 0px 10px;
                             cursor: pointer;
 
-                            &:hover {
-                                color: $color-grey;
-                            }
+                            
                         }
                     }
                 }
@@ -514,13 +1648,15 @@
                 }
 
                 .main-content{
+                    margin: 0px 15px;
                
                     display: flex;
                     flex-direction: row;
                     
                     .content-left {
-                        flex: 1.2;
+                        flex: 1;
                         margin-right: 30px;
+                        
 
                         .left-container {
                             display: flex;
@@ -538,7 +1674,7 @@
                                 display: flex;
                                 flex-direction: column;
                                 text-align: center;
-                                border: 1px solid gray;
+                                border: 1px solid #2e2e2e;
                                 border-radius: 6px 6px 0px 0px;
 
                                 img {
@@ -565,7 +1701,7 @@
                             .box2{
                                 display: flex;
                                 flex-direction: column;
-                                border: 1px solid gray;
+                                border: 1px solid #2e2e2e;
                                 border-radius: 0px 0px 0px 0px;
                                 padding: 10px;
                                 
@@ -610,7 +1746,7 @@
                                     padding: 10px 0px 20px 10px;
                                     color: $color-link;
                                     cursor: pointer;
-                                    border: 1px solid gray;
+                                    border: 1px solid #2e2e2e;
                                 border-radius: 0px 0px 6px 6px;
 
                                     &:hover{
@@ -629,24 +1765,367 @@
                     .content-right{
                         flex: 4;
                         
-                        background-color: #b19898;
+                        
+                        
+                        // background-color: #b19898;
                         display: flex;
-                        flex-direction: column;
-                        padding: 0px 16px;
+                        flex-direction: row;
+                        // padding: 0px 16px;
 
+                        .right-1{
+                            
+
+
+                            .right-1-container{
+                                color: #8b949e;
+
+                                .right-title{
+                                    color: #8b949e;
+                                    font-size: 20px;
+                                    padding-top: 20px;
+                                }
+
+                                .box{
+                                    display: flex;
+                                    flex-direction: column;
+                                    border: 1px solid #2e2e2e;
+                                    border-radius: 6px;
+                                    
+                                    margin: 30px 0px;
+                                    
+
+
+
+                                    .info{
+                                        display: flex;
+                                        flex-direction: column;
+                                        padding: 0px 20px;
+                                        background-color: $color-secondary;
+                                        justify-content: space-between;
+                                        border-bottom: 1px solid #2e2e2e;
+                                       
+                                        
+
+                                        .based{
+                                            display: flex;
+                                            flex-direction: row;
+                                            align-items: center;
+                                            font-size: 12px;
+                                            padding: 15px 0px;
+
+                                            i{
+                                                padding-right: 10px;
+                                            }
+
+                                        }
+                                        .name{
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-between;
+                                            padding-bottom: 20px;
+                                            .left{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: center;
+                                                i{
+                                                    font-size: 12px;
+                                                    padding-right: 10px;
+                                                }
+                                                
+                                                h2{
+                                                    font-size: 20px;
+                                                    color: $color-link;
+                                                    cursor: pointer;
+
+                                                    &:hover{
+                                                        text-decoration: underline;
+                                                    }
+                                                }
+
+
+                                            }
+                                            .right{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: center;
+                                                
+                                                
+                                               
+
+                                                .star{
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    align-items: center;
+                                                    padding: 3px 10px;
+                                                    border: 1px solid #2e2e2e;
+                                                    background-color: $color-black;
+                                                    border-radius: 6px 0px 0px 6px;
+                                                    font-size: 13px;
+                                                    &:hover{
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    
+
+                                                    i{
+                                                        padding-right: 5px;
+                                                        font-size: 12px;
+                                                    }
+                                                }
+
+                                                .nrthingy{
+                                                    border: 1px solid #2e2e2e;
+                                                    background-color: $color-black;
+                                                    border-radius: 0px 6px 6px 0px;
+                                                    padding: 3px 10px;
+                                                    cursor: pointer;
+                                                    font-size: 13px;
+
+                                                    &:hover{
+                                                        color: $color-link;
+                                                    }
+                                                }
+
+                                                
+                                                
+
+                                            }
+                                       
+                                        }
+                                            .git{
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-content: flex-end;
+                                                font-size: 12px;
+
+                                                .git1{
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    align-items: center;
+                                                    padding-right: 20px;
+                                                    cursor: pointer;
+                                                    
+
+                                                    i{
+                                                        font-size: 12px;
+                                                        padding-right: 10px;
+                                                    }
+                                                }
+
+                                                .active-git{
+                                                    background-color: $color-black;
+                                                    color: rgb(199, 199, 199);
+                                                    padding: 4px 6px;
+                                                    border: 1px solid #2e2e2e;
+                                                    border-radius: 6px 6px 0px 0px;
+                                                    margin-right: 15px;
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .tags{
+                                            display: flex;
+                                            flex-direction: column;
+                                            padding: 0px 20px;
+
+                                            .paragraph{
+                                                padding: 15px 0px;
+                                                font-size: 14px;
+                                            }
+
+                                            .tag{
+                                                display: flex;
+                                                flex-direction: row;
+                                                flex-wrap: wrap;
+                                                max-width: 100%;
+
+                                                a{
+                                                    color: $color-link;
+                                                    background-color: rgba(56,139,253,0.15);
+                                                    border-radius: 6px;
+                                                    margin-right: 4px;
+                                                    margin-top: 6px;
+                                                    padding: 0px 10px;
+                                                    font-size: 13px;
+                
+                                                }
+                                                
+                                            }
+                                        }
+
+                                        .updated{
+                                            display: flex;
+                                            flex-direction: row;
+                                            padding: 20px 20px;
+                                            font-size: 12px;
+
+                                            p{
+                                                padding-right: 10px;
+                                            }
+                                        }
+
+                                       
+                                    
+                                }
+
+                                .ending{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+
+                                    img{
+                                        height: 101px;
+                                        width: 101px;
+                                    }
+                                    h2{
+                                        font-size: 24px;
+                                        color: #fff;
+                                        padding: 15px 0px;
+                                    }
+                                    p{
+                                        color: gray;
+                                        
+                                    }
+                                    .get-upd{
+                                        color: $color-link;
+                                        cursor: pointer;
+                                        &:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+
+                        .trending{
+                        flex: 1;
+                        margin-left: 30px;
+                        
+                        
+
+                        .trending-container{
+                            display: flex;
+                            flex-direction: column;
+                            border: 1px solid #2e2e2e;
+                            border-radius: 6px;
+                            margin-top: 30px;
+                            
+
+                            .trending-head{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                background-color: $color-secondary;
+                                color: rgb(184, 184, 184);
+                                font-size: 16px;
+                                padding: 20px;
+
+                                i{
+                                    padding-right: 15px;
+                                }
+
+                            }
+
+                            .trending-body{
+                                display: flex;
+                                flex-direction: column;
+
+                                .trending-row{
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    padding: 20px;
+                                    border-bottom: 1px solid #2e2e2e;
+
+                                    color: gray;
+                                    i{
+                                        padding-right: 5px;
+                                    }
+
+                                    
+
+                                    .name{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        p{
+                                            color: $color-link;
+                                            cursor: pointer;
+
+                                            &:hover{
+                                                text-decoration: underline;
+                                            }
+                                        }
+
+                                    }
+                                    .star{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+
+                                    }
+                                }
+
+                                .trending-end{
+                                    padding: 10px 20px;
+                                    font-size: 12px;
+                                    color: $color-link;
+                                    cursor: pointer;
+
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        
                         
                     }
+                    }
+
+                    
+
+                    
                 
                 
+            }
+            footer{
+                background-color: $color-black;
+                padding-top: 80px;
+    
+                .footer-links{
+                    margin: 0 auto;
+                    width: 90%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    color: $color-link;
+                    font-size: $text-1;
+                    padding: 40px 0px;
+                    border-top: 1px solid rgb(63, 63, 63);
+    
+                    li{
+                        cursor: pointer;
+                        &:hover{
+                            text-decoration: underline $color-link;
+                        }
+                    }
+    
+                    img{
+                        margin: 0px 50px;
+                    }
+    
+                    li:nth-child(1){
+                        color: gray;
+                    }
+                }
             }
 
 
                 
             }            
         }
-
-
-        
-
     }
 }

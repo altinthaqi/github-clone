@@ -402,8 +402,12 @@
                             padding: 0px 10px;
                             cursor: pointer;
 
-                            &:hover {
-                                color: $color-grey;
+                            a{
+                                color: #fff;
+
+                                &:hover {
+                                    color: $color-grey;
+                                }
                             }
                         }
                     }

@@ -574,8 +574,12 @@
                             padding: 0px 10px;
                             cursor: pointer;
 
-                            &:hover {
-                                color: $color-grey;
+                            a{
+                                color: #fff;
+
+                                &:hover {
+                                    color: $color-grey;
+                                }
                             }
                         }
                     }
@@ -1272,8 +1276,12 @@
                             padding: 0px 10px;
                             cursor: pointer;
 
-                            &:hover {
-                                color: $color-grey;
+                            a{
+                                color: #fff;
+
+                                &:hover {
+                                    color: $color-grey;
+                                }
                             }
                         }
                     }
@@ -1774,7 +1782,7 @@
 
                                     p {
                                         color: rgb(182, 182, 182);
-                                        font-size: 16px;
+                                        font-size: 14px;
                                         padding: 5px 0px;
                                     }
 
