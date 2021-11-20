@@ -6,7 +6,7 @@
 - CSS
 - SCSS
 
-### Page's that are fully finished:
+### Pages that are fully finished:
 
 1. Activity Page
 1. Pull Requests
