@@ -1,48 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in to Github - Altin</title>
     <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
-    <link rel="stylesheet" href="assets/css/login.css">
+    <title>Github Activity - Altin</title>
+    <link rel="stylesheet" href="assets/css/activity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-
-    <section class="login-main">
-        <img src="assets/img/logo.png" alt="Logo">
-
-        <div class="login-container">
-        <h1>Sign in to GitHub</h1>
-        <form class="login-form" action="assets/pages/activity.html">
-            <label for="input">Username or email address</label>
-            <input type="text" name="input" required>
-            
-            <div class="login-second-input">
-                <label for="password">Password</label>
-                <input type="password" name="password" required>
-                <a href="#">Forgot password?</a>
+    <header>
+        <nav>
+            <div class="primary-header">
+                <a href="index.html"><img height="32px" width="32px" src="assets/img/logo.png" alt=""></a>
+                <input type="email" placeholder="Search or jump to...">
+                <ul>
+                    <li class="responsive-link"><a href="assets/pages/pulls.html">Pulls</a></li>
+                    <li class="responsive-link-2"><a href="assets/pages/pulls.html">Pull requests</a></li>
+                    <li><a href="assets/pages/issues.html">Issues</a></li>
+                    <li><a href="assets/pages/marketplace.html">Marketplace</a></li>
+                    <li><a href="assets/pages/explore.html">Explore</a></li>
+                </ul>
             </div>
-            <button type="submit">Sign In</button>
-        </form>
+            <div class="secondary-header">
+                <ul>
+                    <li><i class="far fa-bell"></i></li>
+                    <li>
+                        <div class="header-group">
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="header-group">
+                            <img src="assets/img/people/altin.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                            <ul class="secondary-hover">
+                                <li class="align border">Signed in as altinthaqi</li>
+                                <li>
+                                    <input type="text" placeholder="Set status">
+                                </li>
+                                <li>
 
-        <div class="login-new">
-            <p>New to GitHub? <a href="#"> Create an account</a>.</p>
-        </div>
-        </div>
+                                <li style="border-top: 1px solid rgb(58, 58, 58);"><a
+                                        href="assets/pages/profile.html">Your
+                                        profile</a></li>
+                                <li><a href="assets/pages/repositories.html">Your Repositories</a></li>
 
-        <div class="login-footer">
-             <ul>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Security</a></li>
-                <li><a class="login-grey" href="#">Contact Github</a></li>
+                                <li><a href="assets/pages/projects.html">Your projects</a></li>
+                                <li><a href="assets/pages/packages.html">Packages</a></li>
+
+
+
+
+                    </li>
+
+                    <li style="border-top: 1px solid rgb(58, 58, 58);"><a href="assets/pages/login.html">Sign out</a>
+                    </li>
+                </ul>
+            </div>
+            </li>
             </ul>
+            </div>
+
+            <div class="header-responsive">
+                <i class="fas fa-bars hover-me-header"></i>
+                <a href="activity.html"><img height="32px" width="32px" src="assets/img/logo.png" alt=""></a>
+                <i class="far fa-bell"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="activity-main">
+        <div class="activity-container">
+
+            <div class="activity-sidebar">
+                <div class="activity-sidebar-container">
+                    <div class="activity-info">
+                        <h2>Repositories</h2>
+                        <button><i class="fas fa-book"></i>
+                            New</button>
+                    </div>
+                    <input type="text" placeholder="Find a repository...">
+                    <div class="activity-repositories">
+                        <div class="activity-repository">
+                            <img height="16px" width="16px" src="../img/people/altin.jpg" alt="">
+                            <p>altinthaqi / Portfolio</p>
+                        </div>
+                        <div class="activity-repository">
+                            <img height="16px" width="16px" src="../img/people/altin.jpg" alt="">
+                            <p>altinthaqi / travelAgency</p>
+                        </div>
+                        <div class="activity-repository">
+                            <img height="16px" width="16px" src="../img/people/altin.jpg" alt="">
+                            <p>altinthaqi / Photography</p>
+                        </div>
+                        <div class="activity-repository">
+                            <img height="16px" width="16px" src="../img/people/altin.jpg" alt="">
+                            <p>altinthaqi / task1</p>
+                        </div>
+                        <div class="activity-repository">
+                            <img height="16px" width="16px" src="../img/people/altin.jpg" alt="">
+                            <p>altinthaqi / CleanIt</p>
+                        </div>
+                        <div class="activity-repository">
+                            <img height="16px" width="16px" src="../img/people/altin.jpg" alt="">
+                            <p>altinthaqi / task4</p>
+                        </div>
+                    </div>
+                    <p class="activity-show-more">Show more</p>
+                </div>
+
+                <div class="activity-recent">
+                    <h2>Recent activity</h2>
+                    <p>When you take actions across GitHub, we’ll provide links to that activity here.</p>
+                </div>
+
+            </div>
+
+
+            <div class="activity-content">
+                <div class="activity-content-container">
+                    <h2>All activity</h2>
+
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/task4 public</p>
+                            <p class="small-grey">14 hours ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>altinthaqi/task4</h2>
+                                <div class="news-info-info">
+                                    <div class="news-color"></div>
+                                    <p>CSS</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/Go-Lang-Playground public</p>
+                            <p class="small-grey">10 days ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>Go-Lang-Playground</h2>
+                                <div class="news-info-info">
+                                    <div class="news-color" style="background-color: #375eab;"></div>
+                                    <p>Go</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/xhepi6/audiobag public</p>
+                            <p class="small-grey">14 hours ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>xhepi6/audiobag </h2>
+                                <div class="news-info-info">
+                                    <div class="news-color" style="background-color: #3572A5;"></div>
+                                    <p>Python</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/task4 public</p>
+                            <p class="small-grey">14 hours ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>altinthaqi/task4</h2>
+                                <div class="news-info-info">
+                                    <div class="news-color"></div>
+                                    <p>CSS</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/Go-Lang-Playground public</p>
+                            <p class="small-grey">10 days ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>Go-Lang-Playground</h2>
+                                <div class="news-info-info">
+                                    <div class="news-color" style="background-color: #375eab;"></div>
+                                    <p>Go</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/xhepi6/audiobag public</p>
+                            <p class="small-grey">14 hours ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>xhepi6/audiobag </h2>
+                                <div class="news-info-info">
+                                    <div class="news-color" style="background-color: #3572A5;"></div>
+                                    <p>Python</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/task4 public</p>
+                            <p class="small-grey">14 hours ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>altinthaqi/task4</h2>
+                                <div class="news-info-info">
+                                    <div class="news-color"></div>
+                                    <p>CSS</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/Go-Lang-Playground public</p>
+                            <p class="small-grey">10 days ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>Go-Lang-Playground</h2>
+                                <div class="news-info-info">
+                                    <div class="news-color" style="background-color: #375eab;"></div>
+                                    <p>Go</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/xhepi6/audiobag public</p>
+                            <p class="small-grey">14 hours ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>xhepi6/audiobag </h2>
+                                <div class="news-info-info">
+                                    <div class="news-color" style="background-color: #3572A5;"></div>
+                                    <p>Python</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/task4 public</p>
+                            <p class="small-grey">14 hours ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>altinthaqi/task4</h2>
+                                <div class="news-info-info">
+                                    <div class="news-color"></div>
+                                    <p>CSS</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/Go-Lang-Playground public</p>
+                            <p class="small-grey">10 days ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>Go-Lang-Playground</h2>
+                                <div class="news-info-info">
+                                    <div class="news-color" style="background-color: #375eab;"></div>
+                                    <p>Go</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+                    <div class="activity-news">
+                        <div class="activity-author-info">
+                            <img height="32px" width="32px" src="assets/img/people/altin.jpg" alt="">
+                            <p>altinthaqi made altinthaqi/xhepi6/audiobag public</p>
+                            <p class="small-grey">14 hours ago</p>
+                        </div>
+                        <div class="activity-author-news">
+                            <div class="news-info">
+                                <h2>xhepi6/audiobag </h2>
+                                <div class="news-info-info">
+                                    <div class="news-color" style="background-color: #3572A5;"></div>
+                                    <p>Python</p>
+                                    <p>Updated Oct 7</p>
+                                </div>
+                            </div>
+                            <button><i class="far fa-star"></i> Star</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer">
+                    <div class="footer1">
+                        <i class="far fa-lightbulb"></i>
+                        <p>ProTip! The feed shows you events from people you follow and repositories you watch or star.
+                        </p>
+                    </div>
+                    <div class="footer1">
+                        <i class="fas fa-wifi"></i>
+                        <p>Subscribe to your news feed</p>
+                    </div>
+                    <div class="footer-main">
+                        <div class="footer-left">
+                            <img height="24px" width="24px" src="assets/img/logo.png" alt="">
+                            <p>© 2021 GitHub, Inc.</p>
+                        </div>
+                        <div class="footer-right">
+                            <ul>
+                                <li>Blog</li>
+                                <li>About</li>
+                                <li>Shop</li>
+                                <li>Contact GitHub</li>
+                                <li>Pricing</li>
+                            </ul>
+
+                            <ul>
+                                <li>API</li>
+                                <li>Training</li>
+                                <li>Status</li>
+                                <li>Security</li>
+                            </ul>
+
+                            <ul>
+                                <li>Terms</li>
+                                <li>Privacy</li>
+                                <li>Docs</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="activity-explore">
+                <div class="activity-explore-container">
+                    <h2 class="explore-title">Explore repositories</h2>
+                    <div class="activity-repository">
+                        <h2 class="explore-title2">OpenGenus/cosmos</h2>
+                        <p class="explore-padding">
+                            Hacktoberfest 2021 | World's largest Contributor driven code dataset | Algorithms that run
+                            our universe | Your personal library of every algorithm and data structure code that you
+                            will ever encount…
+                        </p>
+                        <div class="activity-repository-info">
+                            <div class="color2"></div>
+                            <p>C++</p>
+                            <i class="far fa-star"></i>
+                            <p>12.8k</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-repository">
+                        <h2 class="explore-title2">bedimcode / responsive-accordion</h2>
+                        <p class="explore-padding">
+                            Responsive Accordion Ui Design Using HTML CSS & JavaScript
+                        </p>
+                        <div class="activity-repository-info">
+                            <div class="color2" style="background-color: #f1e05a;"></div>
+                            <p>JavaScript</p>
+                            <i class="far fa-star"></i>
+                            <p>341</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-repository">
+                        <h2 class="explore-title2">WorkerLivesMatter / WorkingTime</h2>
+                        <p class="explore-padding">
+                            WorkingTime
+                            是由中国民间程序员发起的一个项目，针对目前包括互联网企业在内的各个企业中可能存在作息不太透明的现状，上线了一个在线作息编辑表格。上线仅两天就收获了很多大家积极自愿分享的相关个人作息信息，几十万的浏览次数，上百人同时在线查看。
+                        </p>
+                        <div class="activity-repository-info">
+                            <div class="color2" style="background-color: #4F5D95;;"></div>
+                            <p>PHP</p>
+                            <i class="far fa-star"></i>
+                            <p>4.2k</p>
+                        </div>
+                    </div>
+
+                    <p class="show-more">Explore more</p>
+                </div>
+            </div>
         </div>
     </section>
 
- 
-    
 </body>
+
 </html>
