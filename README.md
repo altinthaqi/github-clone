@@ -1,10 +1,10 @@
 # Github Clone
-###### View Deployed Version Here: https://altinthaqi.github.io/github-clone/
-### The website is developed using:
 
-- HTML
-- CSS
-- SCSS
+###### View Deployed Version Here: https://altinthaqi.github.io/github-clone/
+
+#### This project is a a static clone of Github pages.
+
+#### I built it to showcase my Web Design skills in HTML, CSS(SCSS) for a task in a Fullstack Bootcamp that I'm enrolled.
 
 ### Pages that are fully finished:
 
